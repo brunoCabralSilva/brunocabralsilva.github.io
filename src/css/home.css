@@ -1,0 +1,130 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-background {
+    display: none;
+    width: 100%;
+}
+
+.section-content {
+    width: 50%;
+    padding: 20px;
+    background-image: linear-gradient(to right, #eeece9, #f3e1e0);
+    height: 97.6vh;
+}
+
+.section-content>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.title-text {
+    display: flex;
+    align-items: flex-end;
+    font-size: 3vw;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 30vh;
+}
+
+.paragraph-text {
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-size: 1.3vw;
+}
+
+.aside-image {
+    width: 50%;
+    height: 20vh;
+}
+
+article {
+    height: 30vh;
+}
+
+.img-aside {
+    width: 100%;
+}
+
+
+.div-arrow-down {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 160px;
+}
+
+.arrow-down {
+    padding-top: 30px;
+    width: 65px;
+    opacity: 0.4;
+    animation: arrow-animate 2s linear infinite;
+}
+
+.arrow-down:hover {
+    opacity: 0.2;
+    animation: arrow-animate 0.5s linear infinite;
+}
+
+@keyframes arrow-animate {
+    50% {
+        opacity: 0.2;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    main {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .aside-image {
+        display: none;
+    }
+
+    .section-content {
+        width: 100%;
+        padding: 0;
+        height: 670px;
+    }
+
+    .section-content>div {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .img-background {
+        z-index: 0;
+        display: flex;
+        position: relative;
+        opacity: 0.5;
+        height: 100%;
+    }
+
+    .title-text {
+        height: 30vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    article {
+        height: 70vh;
+        width: 70%;
+        text-align: center;
+    }
+
+    .paragraph-text {
+        font-size: 18px;
+    }
+}

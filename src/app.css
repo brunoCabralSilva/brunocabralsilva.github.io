@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Montserrat, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 910px) {
+    main {
+        flex-direction: column;
+    }
+}
