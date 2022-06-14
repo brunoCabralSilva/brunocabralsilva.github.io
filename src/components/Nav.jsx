@@ -6,22 +6,17 @@ class Nav extends React.Component {
   render() {
     return (
       <header>
-        {/* <img
-          src={require("../images/imagem-bruno-cabral-semfundo.jpeg")}
-          alt="imagem de Bruno Cabral"
-          className="rounded-circle img-myself"
-        /> */}
         <ul className="ul-nav">
           <li className="li-nav">
-            <a className="a-nav" href="">Início</a>
+            <Link to="/meu-portfolio" className="a-nav">Início</Link>
           </li>
           <span>|</span>
           <li className="li-nav">
-            <a className="a-nav" href="">Sobre</a>
+            <Link to="/sobre-mim" className="a-nav">Sobre</Link>
           </li>
           <span>|</span>
           <li className="li-nav">
-            <a className="a-nav" href="">Contato</a>
+            <Link to="/contato" className="a-nav">Contato</Link>
           </li>
         </ul>
       </header>

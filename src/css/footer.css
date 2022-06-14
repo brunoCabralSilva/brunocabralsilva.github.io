@@ -6,7 +6,10 @@ footer {
     color: white;
     padding: 10px;
     padding-right: 10px;
-    background-image: linear-gradient(to right, #ecd5d4, #A68F86);
+    background-color: white;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .footer-copyright {
@@ -16,6 +19,7 @@ footer {
 .paragraph-footer {
     text-align: right;
     margin-bottom: 0;
+    font-size: 1.3vw;
 }
 
 @media screen and (max-width: 910px) {

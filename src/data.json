@@ -1,0 +1,38 @@
+[
+    {
+        "academia": "Escola Técnica Redentorista",
+        "curso": "Técnico em Eletrônica.",
+        "descricao": "Foi o primeiro curso que ingressei após encerrar o ensino médio, iniciando em janeiro de 2011 e concluindo em julho de 2012.",
+        "dataInicio": "Jan. de 2011",
+        "dataConclusão": "Jul. de 2012",
+        "duracao": "Um ano e meio.",
+        "imagem": "redentorista.png"
+    },
+    {
+        "academia": "Faculdade Maurício de Nassau",
+        "curso": "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+        "descricao": "Minha paixão por desenvolvimento já existia antes, mas foi aqui que ela aumentou: Iniciei o curso em Janeiro de 2013 e concluí em Dezembro de 2015.",
+        "dataInicio": "Jan. de 2013",
+        "dataConclusão": "Dez. de 2015",
+        "duracao": "Dois anos e meio.",
+        "imagem": "nassau.png"
+    },
+    {
+        "academia": "Universidade Federal de Campina Grande",
+        "curso": "Engenharia Elétrica.",
+        "descricao": "Minha paixão por desenvolvimento já existia antes, mas foi aqui que ela aumentou: Iniciei o curso em Janeiro de 2013 e concluí em Dezembro de 2015.",
+        "dataInicio": "Jan. de 2017",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Cinco anos.",
+        "imagem": "ufcg.png"
+    },
+    {
+        "academia": "Trybe",
+        "curso": "Desenvolvimento Web.",
+        "descricao": "Minha paixão por desenvolvimento já existia antes, mas foi aqui que ela aumentou: Iniciei o curso em Janeiro de 2013 e concluí em Dezembro de 2015.",
+        "dataInicio": "Fev. de 2022",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Um ano.",
+        "imagem": "trybe-logo.png"
+    }
+]

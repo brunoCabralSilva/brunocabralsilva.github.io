@@ -1,0 +1,64 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-myself {
+    margin: 20px;
+    height: 85vh;
+}
+
+.about-text {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
+.title-about {
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 3vw;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.paragraph-about {
+    padding-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-size: 1.3vw;
+}
+
+.btn-arrow-down {
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+
+.arrow-right {
+    width: 40%;
+    margin-left: 40px;
+    opacity: 0.6;
+    animation: arrow-animate 2s linear infinite;
+    z-index: 1;
+}
+
+.arrow-right:hover {
+    opacity: 1;
+    animation: arrow-animate 0.6s linear infinite;
+}
+
+@keyframes arrow-animate {
+    50% {
+        opacity: 0.2;
+    }
+}

@@ -9,6 +9,7 @@
 main {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 @media screen and (max-width: 910px) {
