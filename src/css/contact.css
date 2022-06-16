@@ -1,0 +1,41 @@
+.contact {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/3.png');
+    background-size: cover;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.title-contact {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-brands {
+    padding: 20px;
+}
+
+.fa-linkedin:hover {
+    color: rgb(55, 55, 124);
+}
+
+.fa-whatsapp:hover {
+    color: rgb(14, 129, 3);
+}
+
+.fa-github:hover {
+    color: rgb(93, 94, 93);
+}

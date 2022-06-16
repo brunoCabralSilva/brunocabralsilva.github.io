@@ -1,0 +1,21 @@
+.paragraph-acad {
+    font-size: 1.3vw;
+}
+
+.subtitle-academics {
+    font-size: 2vw;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 910px) {
+    .subtitle-academics {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .paragraph-acad {
+        font-size: 18px;
+        text-align: center;
+    }
+}

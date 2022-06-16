@@ -1,0 +1,41 @@
+.professional {
+    background-image: url('../images/3.png');
+    background-size: cover;
+}
+
+.btn-arrow-right-prof {
+    margin: 0 3.5% 0 0;
+}
+
+.btn-arrow-left-prof {
+    margin: 0 1% 0 5%;
+}
+
+.prof-content {
+    display: flex;
+    height: 92vh;
+}
+
+@media screen and (max-width: 910px) {
+
+    .btn-arrow-left-prof,
+    .btn-arrow-right-prof {
+        display: none;
+    }
+
+    .prof-content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        height: 1100px;
+    }
+
+    .space {
+        height: 50px;
+    }
+
+    .professional {
+        height: 1100px;
+    }
+}

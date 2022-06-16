@@ -1,0 +1,85 @@
+.academics-new {
+  display: flex;
+  flex-direction: column;
+}
+
+.academics-grid {
+  display: grid;
+  width: 100vw;
+  height: 90vh;
+
+}
+
+.grid-default {
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.grid1 {
+  grid-area: grid1;
+  background: url('../images//eter.jpg');
+  background-size: cover;
+  background-position: 50%;
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.grid2 {
+  grid-area: grid2;
+  background: url('../images//nassau.jpg');
+  background-position: 50%;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.grid3 {
+  grid-area: grid3;
+  background: url('../images//ufcg.jpg');
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.grid4 {
+  grid-area: grid4;
+  background: url('../images/trybe.png');
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.grid {
+  grid-template-areas:
+    "grid1 grid2 grid2"
+    "grid1 grid3 grid4"
+  ;
+  width: 99%;
+}
+
+.inFocus {
+  width: 50vw;
+  height: 50vh;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+}
+
+.h3-academics {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  background: linear-gradient(to right, black, transparent);
+  margin-bottom: 0;
+}

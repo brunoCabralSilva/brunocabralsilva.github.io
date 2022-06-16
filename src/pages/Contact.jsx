@@ -1,6 +1,8 @@
 import React from 'react';
+import '../css/contact.css';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import { motion } from 'framer-motion';
 
 class Contact extends React.Component {
   render() {
@@ -9,14 +11,42 @@ class Contact extends React.Component {
         <div>
           <Nav />
         </div>
-        <section>
-          <img
-            src={require("../images/software-developer.png")}
-            className="img-background-computer"
-            alt="imagem de computador"
-          />
-          Contato
-        </section>
+        <motion.section
+          className="contact"
+        >
+          <motion.div
+            className="div-contact"
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: '100vh', opacity: 0, transition: { duration: 1 } }}
+            transition={{ delay: 1, duration: 1 }}
+          >
+            <h1 className="title-contact">
+              Contatos</h1>
+            <div className="contact-links">
+              <a
+                href="https://contate.me/brunoCabralSilva"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/bruno-cabral-336076228/"
+                target="_blank"
+                rel="noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/brunoCabralSilva"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </motion.div>
+        </motion.section>
         <Footer />
       </section >
     );

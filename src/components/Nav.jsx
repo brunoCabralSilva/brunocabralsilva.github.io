@@ -1,24 +1,29 @@
 import React from 'react';
 import '../css/nav.css';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import Navegation from '../components/Navegation';
 
 class Nav extends React.Component {
   render() {
     return (
       <header>
-        <ul className="ul-nav">
-          <li className="li-nav">
-            <Link to="/meu-portfolio" className="a-nav">Início</Link>
-          </li>
+        <motion.ul
+          className="ul-nav"
+          initial={{ x: 50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <Navegation href="/meu-portfolio" content="Início" />
           <span>|</span>
-          <li className="li-nav">
-            <Link to="/sobre-mim" className="a-nav">Sobre</Link>
-          </li>
+          <Navegation href="/sobre-mim" content="Sobre" />
           <span>|</span>
-          <li className="li-nav">
-            <Link to="/contato" className="a-nav">Contato</Link>
-          </li>
-        </ul>
+          <Navegation href="/academico" content="Vida Acadêmica" />
+          <span>|</span>
+          <Navegation href="/professional" content="Profissional" />
+          <span>|</span>
+          <Navegation href="/contato" content="Contato" />
+        </motion.ul>
       </header>
     );
   }

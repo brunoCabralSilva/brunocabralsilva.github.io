@@ -6,8 +6,6 @@ import Description from '../components/Description'
 import ListImages from '../components/ListImages';
 import Footer from '../components/Footer';
 import academics from '../data/academics.json';
-import { downUpvariant } from '../variants';
-import { motion } from 'framer-motion';
 
 class antigo extends React.Component {
   state = {
@@ -168,22 +166,10 @@ class antigo extends React.Component {
           <Nav />
         </div>
         <div className="academics">
-          <motion.div
-            className="academics-content"
-            variants={downUpvariant}
-            initial="hidden"
-            animate='visible'
-            exit="exit"
-          >
-            <motion.button
-              onClick={this.retrocedeAcademicos}
-              className="btn-arrow btn-arrow-left-acad"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 1 }}
-            >
+          <div className="academics-content">
+            <button onClick={this.retrocedeAcademicos} className="btn-arrow btn-arrow-left-acad">
               <IoIosArrowBack />
-            </motion.button>
+            </button>
             <ListImages
               itens={listaDeAcademias}
               retrocedeAcademicos={this.retrocedeAcademicos}
@@ -197,17 +183,11 @@ class antigo extends React.Component {
                 duracao={duracao}
                 descricao={descricaoAcademia}
               />
-              <motion.button
-                onClick={this.avancaAcademicos}
-                className="btn-arrow btn-arrow-right-acad"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 1 }}
-              >
+              <button onClick={this.avancaAcademicos} className="btn-arrow btn-arrow-right-acad">
                 <IoIosArrowForward />
-              </motion.button>
+              </button>
             </div>
-          </motion.div>
+          </div>
         </div>
         <Footer />
       </section >

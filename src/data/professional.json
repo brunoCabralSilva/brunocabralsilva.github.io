@@ -1,0 +1,38 @@
+[
+    {
+        "empresa": "Faculdade Maurício de Nassau",
+        "cargo": "Técnico em Informática.",
+        "descricao": [
+            "No meu primeiro emprego, fui designado a prestar auxílio no que tange ao ramo de manutenção em computadores e redes em todos os setores da Faculdade.",
+            " Estes setores eram constituídos por todas as salas de aula (mais de cinquenta, cada uma com um computador e Tvs ou dataShows), Coordenação, Diretoria, Recursos Humanos, Financeiro, Biblioteca, Recepção, Secretaria e três Labotarótios de informática (cada um com quarenta computadores)."
+        ],
+        "dataInicio": "Jul. de 2012",
+        "dataConclusão": "Mar. de 2014",
+        "duracao": "Um ano e oito meses.",
+        "imagem": "nassau.png"
+    },
+    {
+        "empresa": "Orbitall S.A.",
+        "cargo": "Operador de Cobranças (Caixa Econômica Federal), Superintendência de Processamento e Direcionamentos Jurídicos (Caixa Econômica Federal), Operador de cobranças (Escritório Externo da FortBrasil), Operador SAC (BonSucesso) e Operador de Vendas (Olé Consignado).",
+        "descricao": [
+            "Desempenhei na empresa diversas funções como pode ser notado, onde em todas elas pude trabalhar meu relacionamento e abordagem direta com pessoas.",
+            " Aprendi técnicas de argumentação e convencimento em todas elas, além de desenvolver um linguajar técnico para redigir laudos em defesa da empresa nos processos (Setor de Processamento e Direcionamento Jurídico), mantendo contato direto com os técnicos do Procon."
+        ],
+        "dataInicio": "Fev. de 2014",
+        "dataConclusão": "Set. de 2016",
+        "duracao": "Dois anos e sete meses.",
+        "imagem": "orbitall.png"
+    },
+    {
+        "empresa": "Aec Relacionamento e Responsabilidade",
+        "cargo": "Monitor de Qualidade (99) e Monitor de Qualidade (Shopee).",
+        "descricao": [
+            "Atuando no processo de melhoria contínua, o contato direto com os operadores é constante, para que por meio de brain storms possa entender suas limitações e sugestões que possam ajudar a melhorar na relação com o cliente que entra em contato.",
+            "Somado com análises envolvento a experiência final do cliente pós-atendimento (CSAT), gero sugestões de melhoria para a empresa contratante, que avalia se as dicas são rentáveis e atualiza seu processo de atendimento conforme o apontado."
+        ],
+        "dataInicio": "Out. de 2019",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Dois anos e oito meses",
+        "imagem": "aec.png"
+    }
+]

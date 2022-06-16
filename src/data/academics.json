@@ -1,0 +1,50 @@
+[
+    {
+        "academia": "Escola Técnica Redentorista",
+        "curso": "Técnico em Eletrônica.",
+        "descricao": [
+            "A minha primeira experiência acadêmica pós ensino regular foi o redentorista. Ali, tive contato pela primeira vez com uma linguagem de programação (Linguagem C), direcionado para microcontroladores.",
+            "Aprendi muito sobre a eletricidade, sendo o maior dos conhecimentos adquiridos voltados para Elétrica predial."
+        ],
+        "dataInicio": "Jan. de 2011",
+        "dataConclusão": "Jul. de 2012",
+        "duracao": "Um ano e meio.",
+        "imagem": "redentorista.png"
+    },
+    {
+        "academia": "Faculdade Maurício de Nassau",
+        "curso": "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+        "descricao": [
+            "O primeiro grande passo rumo ao campo da programação e desenvolvimento começou aqui.",
+            "Aprendi muito sobre banco de dados e redes, projeto e interface do usuário, HTML5, CSS3, entre outros."
+        ],
+        "dataInicio": "Jan. de 2013",
+        "dataConclusão": "Dez. de 2015",
+        "duracao": "Dois anos e meio.",
+        "imagem": "nassau.png"
+    },
+    {
+        "academia": "Universidade Federal de Campina Grande",
+        "curso": "Bacharel em Engenharia Elétrica.",
+        "descricao": [
+            "Ao concluir na Maurício de Nassau, desejei mesclar os conhecimentos de programação com o ramo da eletrônica e foi uma boa decisão, dado o que aprendi.",
+            "Dentre todas as experiências, pode-se citar o aprendizado no que tante a matemática, física, administração, sociologia e circuitos lógicos."
+        ],
+        "dataInicio": "Jan. de 2017",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Cinco anos.",
+        "imagem": "ufcg.png"
+    },
+    {
+        "academia": "Trybe",
+        "curso": "Desenvolvimento Web.",
+        "descricao": [
+            "E finalmente chegamos aos dias atuais. A Trybe foi um achado na minha vida, pois me mostrou a minha maior paixão, dentre todas as que eu possuo: Desenvolvimento Web.",
+            "Já aprendi tanta coisa no que tange ao desenvolvimento com HTML, CSS, Javascript e React que eu nem faço ideia do quão grande serei quando concluir este curso!"
+        ],
+        "dataInicio": "Fev. de 2022",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Um ano.",
+        "imagem": "trybe-logo.png"
+    }
+]

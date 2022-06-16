@@ -1,128 +1,74 @@
 .academics {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/3.png');
+  background-size: cover;
 }
 
 .academics-content {
-    display: flex;
-    height: 77vh;
-    width: 100%;
+  display: flex;
+  height: 92vh;
 }
 
-.container-img {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-    padding-top: 10%;
+.academics-text-right {
+  text-align: right;
+  width: 65%;
+  margin: 1% 0 0 7.5%;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
 }
 
-.img-academics {
-    margin-left: 30px;
-    width: 42%;
-}
-
-.title-academics {
-    font-size: 3vw;
-}
-
-.subtitle-academics {
-    font-size: 3vw;
-    line-height: 1;
-    padding-bottom: 20px;
-}
-
-.paragraph-acad {
-    font-size: 1.3vw;
-}
-
-.img-eter {
-    transform: rotate(2deg);
-    position: absolute;
-    opacity: 0.4;
-}
-
-.img-nassau {
-    transform: rotate(-18deg);
-    position: absolute;
-    opacity: 0.4;
-}
-
-.img-ufcg {
-    transform: rotate(-10deg);
-    position: absolute;
-    opacity: 0.4;
-}
-
-.img-trybe {
-    transform: rotate(11deg);
-    position: absolute;
-    opacity: 0.4;
-}
-
-.academics-text {
-    text-align: right;
-    width: 65%;
-    margin: 1% 0 0 7.5%;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
+.academics-text-left {
+  text-align: left;
+  width: 65%;
+  margin: 0 0 0 1%;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 .academics-text>div {
-    display: flex;
-    flex-direction: column;
-}
-
-.img-selected {
-    border: 7px solid white;
-    z-index: 2;
-    opacity: 1;
-    transition: opacity 1s;
+  display: flex;
+  flex-direction: column;
 }
 
 .btn-arrow {
-    background-color: transparent;
-    border: none;
-    font-size: 5vw;
-    z-index: 2;
+  background-color: transparent;
+  border: none;
+  font-size: 5vw;
+  z-index: 2;
 }
 
 .btn-arrow-left-acad {
-    margin: 0 3.5% 0 2%;
+  margin: 0 3.5% 0 2%;
 }
 
 .btn-arrow-right-acad {
-    margin: 0 5% 0 3.5%;
+  margin: 0 5% 0 3.5%;
 }
-
-.arrow {
-    width: 65px;
-    opacity: 0.9;
-    animation: arrow-animation 2s linear infinite;
-    z-index: 1;
-    background-color: transparent;
-    border: none;
-}
-
-.arrow:hover {
-    animation: arrow-animation 0.8s linear infinite;
-}
-
-@keyframes arrow-animation {
-    50% {
-        opacity: 0.7;
-    }
-}
-
 
 .btn-arrow-next {
-    width: 100%;
+  width: 100%;
 }
 
-.arrow-next-page {
-    width: 6%;
+@media screen and (max-width: 910px) {
+  .academics {
+    height: 700px;
+  }
+
+  .academics-text-left {
+    z-index: 1;
+    width: 90%;
+  }
+
+  .btn-arrow-left-acad,
+  .btn-arrow-right-acad {
+    display: none;
+  }
 }

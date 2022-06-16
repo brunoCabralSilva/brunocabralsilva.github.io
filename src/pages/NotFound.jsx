@@ -10,11 +10,6 @@ class NotFound extends React.Component {
           <Nav />
         </div>
         <section>
-          <img
-            src={require("../images/software-developer.png")}
-            className="img-background-computer"
-            alt="imagem de computador"
-          />
           Not Found
         </section>
         <Footer />

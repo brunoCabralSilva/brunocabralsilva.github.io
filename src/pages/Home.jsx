@@ -1,62 +1,54 @@
 import React from 'react';
 import '../css/home.css';
-import { Link } from 'react-router-dom';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import { motion } from 'framer-motion';
+import { upDownvariant } from '../variants';
 
 class Home extends React.Component {
-  direction = () => {
-    const { history } = this.props;
-    history.push('/sobre-mim');
-  }
   render() {
     return (
-      <div className="home">
+      <div className="home" >
         <div>
           <Nav />
         </div>
-        <main>
-          <img
-            src={require("../images/software-developer.png")}
-            className="img-background-computer"
-            alt="imagem de computador"
-          />
-          <section className="section-content">
-            <h1 className="title-text">Bem vindo!</h1>
-            <article>
-              <p className="paragraph-text">
-                Eu me chamo Bruno e esta é uma página de autoria própria pensada para ser um portfólio sobre mim.
-              </p>
-              <p className="paragraph-text">
-                Estudante de Desenvolvimento Web e com uma bagagem considerável no mercado de trabalho, trago comigo muita criatividade, intensidade e paixão pelo que faço!
-              </p>
-            </article>
-            <button
-              className="btn-arrow-down"
-              onClick={this.direction}
+        <div className="background">
+          <motion.main
+            variants={upDownvariant}
+            initial="hidden"
+            animate='visible'
+            exit="exit"
+          >
+            <motion.section
+              className="section-content"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1, duration: 1 }}
             >
-              <img
-                src={require('../images/arrow-down.png')}
-                className="arrow-down"
-                alt="seta para baixo"
+              <h1 className="title-text">Bem vindo!</h1>
+              <article>
+                <p className="paragraph-text">
+                  Eu me chamo Bruno e esta é uma página de autoria própria pensada para ser um portfólio sobre mim.
+                </p>
+                <p className="paragraph-text">
+                  Estudante de Desenvolvimento Web e com uma bagagem considerável no mercado de trabalho, trago comigo muita criatividade, intensidade e paixão pelo que faço!
+                </p>
+              </article>
+            </motion.section>
+            <aside className="aside-image">
+              <motion.img
+                src={require('../images/me2.jpg')}
+                alt="Imagem de Bruno Cabral"
+                class="img-aside"
+                initial={{ opacity: 0, y: -100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1, duration: 1.3, type: 'spring', stiffness: 40 }}
               />
-            </button>
-            <img
-              src={require('../images/me3.jpg')}
-              alt="Imagem de Bruno Cabral"
-              class="img-background"
-            />
-          </section>
-          <aside className="aside-image">
-            <img
-              src={require('../images/me2.jpg')}
-              alt="Imagem de Bruno Cabral"
-              class="img-aside"
-            />
-          </aside>
-        </main>
+            </aside>
+          </motion.main>
+        </div>
         <Footer />
-      </div>
+      </div >
     );
   }
 }
