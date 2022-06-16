@@ -19,9 +19,9 @@ class About extends React.Component {
         </div>
         <div className="background">
           <motion.div className='about'
-            initial={{ y: '-100vh', opacity: 0 }}
+            initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            exit={{ y: "100vh", opacity: 0, transition: { duration: 1 } }}
+            exit={{ y: 20, opacity: 0, transition: { duration: 1 } }}
             transtition={{ duration: 1.5 }}
           >
             <motion.section
@@ -41,7 +41,7 @@ class About extends React.Component {
                 src={require('../images/imagem-bruno-cabral-semfundo.jpeg')}
                 alt="Imagem de Bruno Cabral"
                 className="img-aside img-aside-about"
-                initial={{ opacity: 0, y: 100 }}
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 1.3, type: 'spring', stiffness: 40 }}
               />

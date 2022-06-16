@@ -151,7 +151,7 @@ class Professional extends React.Component {
             variants={upDownvariant}
             initial="hidden"
             animate='visible'
-            exit={{ y: '-100vh', transition: { duration: 1 } }}
+            exit={{ y: -20, opacity: 0, transition: { duration: 1 } }}
           >
             <div className="academics-text-left">
               <motion.button

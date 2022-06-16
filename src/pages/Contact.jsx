@@ -16,9 +16,9 @@ class Contact extends React.Component {
         >
           <motion.div
             className="div-contact"
-            initial={{ y: 100, opacity: 0 }}
+            initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            exit={{ y: '100vh', opacity: 0, transition: { duration: 1 } }}
+            exit={{ y: 20, opacity: 0, transition: { duration: 1 } }}
             transition={{ delay: 1, duration: 1 }}
           >
             <h1 className="title-contact">

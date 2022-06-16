@@ -7,7 +7,7 @@ export const upDownvariant = {
         transtition: { duration: 1.5 }
     },
     exit: {
-        y: "-100vh",
+        y: -20,
         opacity: 0,
         transition: { duration: 1 }
     }
@@ -15,7 +15,7 @@ export const upDownvariant = {
 
 export const downUpvariant = {
     hidden: {
-        y: '100vh',
+        y: 20,
         opacity: 0,
     },
     visible: {
@@ -24,7 +24,7 @@ export const downUpvariant = {
         transtition: { duration: 1.5 }
     },
     exit: {
-        y: "-100vh",
+        y: -20,
         opacity: 0,
         transition: { duration: 1 }
     }

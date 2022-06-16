@@ -58,13 +58,20 @@
 }
 
 @media screen and (max-width: 910px) {
-  .academics {
-    height: 700px;
+
+  .academics-text-right,
+  .academics-text-left {
+    text-align: center;
+    margin: auto;
   }
 
   .academics-text-left {
     z-index: 1;
     width: 90%;
+  }
+
+  .academics {
+    height: 800px;
   }
 
   .btn-arrow-left-acad,

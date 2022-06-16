@@ -40,7 +40,7 @@ class Home extends React.Component {
                 src={require('../images/me2.jpg')}
                 alt="Imagem de Bruno Cabral"
                 class="img-aside"
-                initial={{ opacity: 0, y: -100 }}
+                initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 1.3, type: 'spring', stiffness: 40 }}
               />

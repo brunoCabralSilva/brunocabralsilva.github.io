@@ -1,11 +1,11 @@
 import React from 'react';
-import '../css/footer.css';
+import '../css/nav.css';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 export default class Navegation extends React.Component {
   render() {
-    const { href, content } = this.props
+    const { href, content } = this.props;
     return (
       <motion.li
         className="li-nav"

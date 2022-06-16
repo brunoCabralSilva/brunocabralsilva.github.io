@@ -23,7 +23,7 @@ class ListImages extends React.Component {
     return (
       <motion.div
         className="container-list-images"
-        initial={{ opacity: 0, y: -100 }}
+        initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1.3, type: 'spring', stiffness: 40 }}
       >
