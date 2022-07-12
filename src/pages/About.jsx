@@ -42,12 +42,12 @@ function About() {
                 </div>
               </section>
               <div className="w-full flex flex-col items-center sm:items-start">
-                <h1 className="w-full text-center sm:text-left text-4xl sm:text-5xl mt-10 sm:mt-20 mb-10 font-bold">Why Me</h1>
-                <p className="pl-1 text-sm mt-4 w-9/12 text-center sm:text-justify leading-6">Nascido em Campina Grande, segunda maior cidade da Paraíba, desde cedo estudo para me qualificar no mercado de trabalho.
+                <h1 className="w-full text-c sm:text-left text-4xl sm:text-5xl mt-10 sm:mt-20 mb-10 font-bold">Why Me</h1>
+                <p className="pl-1 text-sm mt-4 w-9/12 text-c sm:text-justify leading-6">Nascido em Campina Grande, segunda maior cidade da Paraíba, desde cedo estudo para me qualificar no mercado de trabalho.
                 {/* Do ramo da eletrônica até a informática, tive incontáveis aprendizados que levarei para toda a vida. */}
                 </p>
 
-                <p className="pl-1 text-sm mt-4 mb-12 w-9/12 text-center sm:text-justify leading-6">O mais novo e avassalador passo da minha vida em direção a minha futura profissão aspirada de Desenvolvedor Web foi ter ingressado em ferereiro de 2022 na Trybe. 
+                <p className="pl-1 text-sm mt-4 mb-12 w-9/12 text-c sm:text-justify leading-6">O mais novo e avassalador passo da minha vida em direção a minha futura profissão aspirada de Desenvolvedor Web foi ter ingressado em ferereiro de 2022 na Trybe. 
                 {/* Nela, tenho acumulado cada vez mais conhecimento sobre a área e cada vez mais ganho confiança de que estou me tornando um ótimo profissional! */}
                 </p>
                 <button className="p-3 sm:mt-12 mt-3 border-2 font-normal border-gray-300 hover:border-gray-500 hover:font-bold transition duration-1000">
@@ -57,7 +57,7 @@ function About() {
 
             </div>
             <hr className="w-11/12 my-16" />
-            <p className="text-4xl sm:text-5xl font-bold mt-5 mb-14 sm:mb-12 text-center sm:text-left">Projetos</p>
+            <p className="text-4xl sm:text-5xl font-bold mt-5 mb-14 sm:mb-12 text-c sm:text-left">Projetos</p>
             <div className="sm:w-11/12 h-48 flex items-center justify-center flex-col ">
               <div className="h-4/5 w-full flex items-center relative">
                 <button className="ml-4 sm:ml-2 absolute font-bold bg-glass hover:bg-white z-20 border border-gray-600 rounded-full p-1" onClick={slideLeft}><IoIosArrowBack /></button>               
@@ -78,7 +78,7 @@ function About() {
               <button className="absolute bg-glass font-bold hover:bg-white border mr-4 sm:mr-2 border-gray-600 right-0 rounded-full p-1" onClick={slideRight}><IoIosArrowForward /></button>
             </div>
             <div className="h-1/5 w-full sm:px-2">
-              <p className="w-full text-center sm:text-left">Mais detalhes</p>
+              <p className="w-full sm:text-left text-center">Mais detalhes</p>
             </div>
             </div>
           </div>

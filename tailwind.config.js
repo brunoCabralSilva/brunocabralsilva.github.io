@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  important: false,
   theme: {
     minHeight: {
       'page': '64vh',
