@@ -1,6 +1,4 @@
 import React from 'react';
-import '../css/academics.css';
-import '../css/professional.css';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Nav from '../components/Nav';
 import Description from '../components/Description'
