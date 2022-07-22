@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu-portfolio/static/css/main.56726ed1.css",
-    "main.js": "/meu-portfolio/static/js/main.a7660305.js",
+    "main.css": "/meu-portfolio/static/css/main.e8978dcc.css",
+    "main.js": "/meu-portfolio/static/js/main.6bf0a655.js",
     "static/media/project3.png": "/meu-portfolio/static/media/project3.7a9cdd47a503ae1feb6f.png",
     "static/media/ufcg.jpg": "/meu-portfolio/static/media/ufcg.45a1584169ec009f4a62.jpg",
     "static/media/trybe.png": "/meu-portfolio/static/media/trybe.f4157b24880c0a062abd.png",
@@ -10,7 +10,7 @@
     "static/media/project1.png": "/meu-portfolio/static/media/project1.218e9bdea98a1637336b.png",
     "static/media/me2.jpg": "/meu-portfolio/static/media/me2.1f16e5fcf2ef4eb394ff.jpg",
     "static/media/fav.png": "/meu-portfolio/static/media/fav.4948e1979274070af5aa.png",
-    "static/media/imagem-bruno-cabral-semfundo.jpeg": "/meu-portfolio/static/media/imagem-bruno-cabral-semfundo.61f04b73e88fc1568b77.jpeg",
+    "static/media/imagem-bruno-cabral-removebg-preview.png": "/meu-portfolio/static/media/imagem-bruno-cabral-removebg-preview.a447faf1b31f321f27e2.png",
     "static/media/meMiddle.jpg": "/meu-portfolio/static/media/meMiddle.b6be23ffeb7729c9b320.jpg",
     "static/media/aec.jpg": "/meu-portfolio/static/media/aec.5427a76dfa3d8f151bc0.jpg",
     "static/media/imagem-bruno-cabral.jpeg": "/meu-portfolio/static/media/imagem-bruno-cabral.8fe95e5395ae3d7ed775.jpeg",
@@ -20,21 +20,22 @@
     "static/media/eter.jpg": "/meu-portfolio/static/media/eter.7dc7c55de780abc51d21.jpg",
     "static/media/nassau.jpg": "/meu-portfolio/static/media/nassau.55671cd5ff55663ee4d5.jpg",
     "static/media/uninassau.jpeg": "/meu-portfolio/static/media/uninassau.55671cd5ff55663ee4d5.jpeg",
-    "static/media/arrow-down.png": "/meu-portfolio/static/media/arrow-down.0b301950874748a54f71.png",
     "static/media/arrow-up.png": "/meu-portfolio/static/media/arrow-up.ded15541ffce57205268.png",
+    "static/media/arrow-down.png": "/meu-portfolio/static/media/arrow-down.f1328be3e4f27857d594.png",
     "static/media/arrow-right.png": "/meu-portfolio/static/media/arrow-right.168ebdb7d5dc9186c73f.png",
     "static/media/arrow-left.png": "/meu-portfolio/static/media/arrow-left.c1ab9b8adc5e0c7dbf98.png",
     "static/media/trêas tecnologias.jpg": "/meu-portfolio/static/media/trêas tecnologias.2007d82cecb151722a83.jpg",
     "static/media/nassau.png": "/meu-portfolio/static/media/nassau.fd422f6aa324fd2fdcfd.png",
     "static/media/ufcg.png": "/meu-portfolio/static/media/ufcg.ac448ad6918d33e57d70.png",
     "static/media/orbitall.jpg": "/meu-portfolio/static/media/orbitall.e9c08271d72deb8f9361.jpg",
+    "static/media/01.png": "/meu-portfolio/static/media/01.ce3d5b1b2066549e78a9.png",
     "static/media/bruno.png": "/meu-portfolio/static/media/bruno.18afb13424f626beae57.png",
     "index.html": "/meu-portfolio/index.html",
-    "main.56726ed1.css.map": "/meu-portfolio/static/css/main.56726ed1.css.map",
-    "main.a7660305.js.map": "/meu-portfolio/static/js/main.a7660305.js.map"
+    "main.e8978dcc.css.map": "/meu-portfolio/static/css/main.e8978dcc.css.map",
+    "main.6bf0a655.js.map": "/meu-portfolio/static/js/main.6bf0a655.js.map"
   },
   "entrypoints": [
-    "static/css/main.56726ed1.css",
-    "static/js/main.a7660305.js"
+    "static/css/main.e8978dcc.css",
+    "static/js/main.6bf0a655.js"
   ]
 }
