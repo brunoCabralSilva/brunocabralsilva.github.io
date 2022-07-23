@@ -75,13 +75,12 @@ class Nav extends React.Component {
         </nav>
 
         <motion.ul
-          className="flex-row justify-center hidden sm:flex"
+          className="flex-row justify-center hidden sm:flex z-40"
           initial={{ x: 20, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
           <Navegation href="/meu-portfolio" content="INÍCIO" />
-          {/* <Navegation href="/sobre-mim" content="sobre" /> */}
           <Navegation href="/academico" content="ACADÊMICO" />
           <Navegation href="/professional" content="PROFISSIONAL" />
           <Navegation href="/contato" content="CONTATO" />

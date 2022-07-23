@@ -3,7 +3,7 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <footer className="z-20 flex flex-col sm:flex-row items-center justify-between pb-2 sm:pt-0 sm:pb-0 w-full">
+      <footer className="z-40 flex flex-col sm:flex-row items-center justify-between pb-2 sm:pt-0 sm:pb-0 w-full">
         <p className="mt-1 sm:mt-0 text-center sm:text-left pl-4"><strong>© 2022 Copyright Bruno Cabral</strong></p>
         <div>
           <p className="mt-1 sm:mt-0 text-center sm:text-left"><strong>bruno.cabral.silva2018@gmail.com</strong></p>

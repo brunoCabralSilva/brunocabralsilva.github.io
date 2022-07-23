@@ -7,7 +7,7 @@ export default class Navegation extends React.Component {
     const { href, content } = this.props;
     return (
       <motion.li
-        className="text-center hover:border-b-2 transition durarion-1000 border-black px-4"
+        className="text-center hover:border-b-2 transition durarion-1000 border-black z-40 px-4"
       >
         <Link to={href} className="no-underline">
           {content}
