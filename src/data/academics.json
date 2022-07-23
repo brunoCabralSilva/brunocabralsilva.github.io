@@ -9,7 +9,7 @@
         "dataInicio": "Jan. de 2011",
         "dataConclusão": "Jul. de 2012",
         "duracao": "Um ano e meio.",
-        "imagem": "redentorista.png"
+        "imagem": "eter.jpg"
     },
     {
         "academia": "Faculdade Maurício de Nassau",
@@ -21,7 +21,7 @@
         "dataInicio": "Jan. de 2013",
         "dataConclusão": "Dez. de 2015",
         "duracao": "Dois anos e meio.",
-        "imagem": "nassau.png"
+        "imagem": "nassau.jpg"
     },
     {
         "academia": "Universidade Federal de Campina Grande",
@@ -33,7 +33,7 @@
         "dataInicio": "Jan. de 2017",
         "dataConclusão": "os dias atuais",
         "duracao": "Cinco anos.",
-        "imagem": "ufcg.png"
+        "imagem": "ufcg.jpg"
     },
     {
         "academia": "Trybe",
@@ -45,6 +45,6 @@
         "dataInicio": "Fev. de 2022",
         "dataConclusão": "os dias atuais",
         "duracao": "Um ano.",
-        "imagem": "trybe-logo.png"
+        "imagem": "trybe.png"
     }
 ]

@@ -21,8 +21,11 @@ class Contact extends React.Component {
             exit={{ y: 20, opacity: 0, transition: { duration: 1 } }}
             transition={{ delay: 1, duration: 1 }}
           >
-            <h1 className="title-contact">
-              Contatos</h1>
+            <img
+              src ={require("../images/imagem-bruno-cabral-removebg-preview.png")}
+              alt="foto de Bruno"
+              className="rounded-full"
+            />
             <div className="contact-links">
               <a
                 href="https://contate.me/brunoCabralSilva"

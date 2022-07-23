@@ -9,7 +9,7 @@
         "dataInicio": "Jul. de 2012",
         "dataConclusão": "Mar. de 2014",
         "duracao": "Um ano e oito meses.",
-        "imagem": "nassau.png"
+        "imagem": "nassau.jpg"
     },
     {
         "empresa": "Orbitall S.A.",
@@ -21,7 +21,7 @@
         "dataInicio": "Fev. de 2014",
         "dataConclusão": "Set. de 2016",
         "duracao": "Dois anos e sete meses.",
-        "imagem": "orbitall.png"
+        "imagem": "orbitall.jpg"
     },
     {
         "empresa": "Aec Relacionamento e Responsabilidade",
@@ -33,6 +33,6 @@
         "dataInicio": "Out. de 2019",
         "dataConclusão": "os dias atuais",
         "duracao": "Dois anos e oito meses",
-        "imagem": "aec.png"
+        "imagem": "aec.jpg"
     }
 ]

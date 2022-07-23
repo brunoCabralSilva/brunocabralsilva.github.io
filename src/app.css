@@ -10,3 +10,41 @@
 .text-c {
     text-align: center;
 }
+
+.margin-b {
+ margin-bottom: 2;
+}
+
+.swiper {
+
+}
+
+.swiper_slide {
+
+}
+
+.swiper-pagination-bullet-active {
+
+}
+
+.swiper-button-prev::after {
+    color: white;
+    margin-left: 55px;
+    padding: 10px 20px;
+}
+
+.swiper-button-next::after {
+    color: white;
+    margin-right: 55px;
+    padding: 10px 40px;
+}
+
+@media (max-width: 770px) {
+    .swiper-button-prev::after {
+        display: none;
+    }
+    
+    .swiper-button-next::after {
+        display: none;
+    }
+}
