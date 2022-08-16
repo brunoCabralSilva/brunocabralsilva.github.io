@@ -49,13 +49,11 @@ class Nav extends React.Component {
           <div className={`w-full h-1 bg-${color} mt-1 transition duration-300 ${this.third()}`} />
         </div>
         <nav className={`h-screen glassmorphism bg-glass flex flex-col items-center fixed top-0 right-0 pb-3 ${this.floatMenu()}`}>
-          <img src={require('../images/01.png')} alt="logo com nome de Bruno" className="pl-2 pt-28 w-3/12 mb-5" />
+          <img src={require('../images/02.png')} alt="logo com nome de Bruno" className="pl-2 pt-28 w-3/12 mb-5" />
           <hr className="mt-3 mb-4 mx-2 text-black w-2/3" />
           <div className="flex flex-col text-lg text-center my-10 z-30">
             <Link to="/meu-portfolio" className="text-black no-underline">Início</Link>
-            <Link to="/sobre-mim" className="text-black pt-4 no-underline">Sobre</Link>
-            <Link to="/academico" className="text-black pt-4 no-underline">Acadêmico</Link>
-            <Link to="/professional" className="text-black pt-4 no-underline">Profissional</Link>
+            <Link to="/academico" className="text-black pt-4 no-underline">Experiências</Link>
             <Link to="/contato" className="text-black py-4 no-underline">Contato</Link>
           </div> 
           <hr className="mb-4 mx-2 text-black w-2/3" />

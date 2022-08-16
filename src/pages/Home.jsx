@@ -10,8 +10,8 @@ function Home(){
   return (
     <div className="flex flex-col bg-me2 bg-fixed bg-cover items-center">
       <header className="relative h-screen flex flex-col relative justify-between w-full text-white z-20">
-        <div className="bg-t-transp h-full w-full absolute" />
-          <div className="z-20">
+        <div className="bg-t-transp h-full w-full absolute z-0" />
+          <div className="z-50 absolute">
             <Nav color="white" className="z-50" />
           </div>
         <div className="z-20 h-85% flex flex-col items-center justify-center h-screen">
@@ -22,10 +22,10 @@ function Home(){
       </header>
       <div className="w-full h-full flex flex-col relative z-20">
         <div className="flex flex-col md:flex-col bg-white">
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col sm:flex-row">
             <div className="flex z-0 sm:w-1/2 w-full items-center">
-              <div className="sm:w-8/12 sm:h-2/3 mx-auto pt-10 sm:pt-0">
-                <img src={require('../images/me-squad.png')} className="sm-opacity-100 sm:my=0 sm:static object-cover rounded-full h-full mx-auto" alt="" />
+              <div className="w-1/2 sm:w-8/12 sm:h-2/3 mx-auto pt-10 sm:pt-0">
+                <img src={require('../images/me-squad.png')} className="sm-opacity-100 sm:my-0 sm:static object-cover rounded-full h-full mx-auto" alt="" />
               </div>
             </div>
             <div className="min-h-page sm:w-aside w-full sm:w-1/2 h-full sm:pl-14 z-20 flex flex-col items-center sm:items-start">
