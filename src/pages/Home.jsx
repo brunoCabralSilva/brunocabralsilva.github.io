@@ -38,7 +38,7 @@ function Home(){
                   Nela, tenho acumulado cada vez mais conhecimento sobre a área e cada vez mais ganho confiança de que estou me tornando um ótimo profissional!
                   </p>
                   <button
-                    onClick={ () => history.push('/academico')}
+                    onClick={ () => history.push('/experience')}
                     className="p-3 sm:mt-12 mt-3 border-2 font-normal bg-white border-gray-300 hover:border-gray-500 hover:font-bold transition duration-1000 mb-20">
                     Mais sobre mim
                   </button>
@@ -51,7 +51,13 @@ function Home(){
             <div className="sm:w-full flex items-center justify-center flex-col ">
             <div className="w-full sm:px- ">
               <SliderProjects className="z-0" />
-              <p className="w-full sm:text-left text-c font-bold text-white my-4 text-base hover:text-xl transition duration-500">Mais projetos</p>
+              <button
+                type="button"
+                className="w-full sm:text-left text-c font-bold text-white my-4 text-base hover:text-xl transition duration-500"
+                onClick={ () => history.push('/projects') }
+              >
+                Mais projetos
+              </button>
             </div>
             </div>
           </div>

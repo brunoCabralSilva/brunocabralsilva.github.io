@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import academics from '../data/academics.json';
 import professional from '../data/professional.json';
 
-function Skills() {
+function Experience() {
     return (
       <div>
         <Nav color="black" className="z-50" />
@@ -19,4 +19,4 @@ function Skills() {
       </div>
     );
         }
-    export default Skills;
+    export default Experience;
