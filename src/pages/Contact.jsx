@@ -22,7 +22,7 @@ class Contact extends React.Component {
             transition={{ delay: 1, duration: 1 }}
           >
             <img
-              src ={require("../images/imagem-bruno-cabral-removebg-preview.png")}
+              src ={require("../images/me.png")}
               alt="foto de Bruno"
               className="rounded-full"
             />

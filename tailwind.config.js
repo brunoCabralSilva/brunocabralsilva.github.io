@@ -28,6 +28,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'cormorant': ['Cormorant SC', 'serif'],
+        'aboreto': ['Aboreto', 'cursive'],
       },
       rotate: {
         '_45': '-45deg',

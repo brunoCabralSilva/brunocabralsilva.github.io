@@ -1,6 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import Navegation from '../components/Navegation';
 import { Link } from 'react-router-dom';
 
 class Nav extends React.Component {
@@ -42,23 +40,23 @@ class Nav extends React.Component {
   }
 
   render() {
-    const { font } = this.props;
+    const { color } = this.props;
     return (
-      <nav className="w-full h-header sm:mt-5 px-4 font-cormorant">
-        <div className="fixed w-12 sm:hidden h-12 top-3 right-3 p-2 z-50" onClick={this.openMenu}>
-          <div className={`w-full h-1 ${font} mt-1 transition duration-500 ${this.first()}`} />
-          <div className={`w-full h-1 ${font} mt-1 transition duration-500 ${this.second()}`} />
-          <div className={`w-full h-1 ${font} mt-1 transition duration-300 ${this.third()}`} />
+      <nav className="w-full h-header sm:pt-5 px-4 font-aboreto text-xl">
+        <div className="fixed w-12 h-12 top-3 right-3 p-2 z-50" onClick={this.openMenu}>
+          <div className={`w-full h-1 bg-${color} mt-1 transition duration-500 ${this.first()}`} />
+          <div className={`w-full h-1 bg-${color} mt-1 transition duration-500 ${this.second()}`} />
+          <div className={`w-full h-1 bg-${color} mt-1 transition duration-300 ${this.third()}`} />
         </div>
-        <nav className={`sm:hidden h-screen glassmorphism bg-glass fixed top-0 right-0 pb-3 ${this.floatMenu()}`}>
-          <img src={require('../images/01.png')} alt="logo com nome de Bruno" className="pl-2 pt-3 w-6/12" />
+        <nav className={`h-screen glassmorphism bg-glass flex flex-col items-center fixed top-0 right-0 pb-3 ${this.floatMenu()}`}>
+          <img src={require('../images/01.png')} alt="logo com nome de Bruno" className="pl-2 pt-28 w-3/12 mb-5" />
           <hr className="mt-3 mb-4 mx-2 text-black w-2/3" />
-          <div className="flex flex-col text-lg z-30">
-            <Link to="/meu-portfolio" className="text-black pl-3 no-underline">Início</Link>
-            <Link to="/sobre-mim" className="text-black pl-3 pt-4 no-underline">Sobre</Link>
-            <Link to="/academico" className="text-black pl-3 pt-4 no-underline">Acadêmico</Link>
-            <Link to="/professional" className="text-black pl-3 pt-4 no-underline">Profissional</Link>
-            <Link to="/contato" className="text-black pl-3 py-4 no-underline">Contato</Link>
+          <div className="flex flex-col text-lg text-center my-10 z-30">
+            <Link to="/meu-portfolio" className="text-black no-underline">Início</Link>
+            <Link to="/sobre-mim" className="text-black pt-4 no-underline">Sobre</Link>
+            <Link to="/academico" className="text-black pt-4 no-underline">Acadêmico</Link>
+            <Link to="/professional" className="text-black pt-4 no-underline">Profissional</Link>
+            <Link to="/contato" className="text-black py-4 no-underline">Contato</Link>
           </div> 
           <hr className="mb-4 mx-2 text-black w-2/3" />
           <div className="flex mx-2 flex-row z-30">
@@ -73,18 +71,6 @@ class Nav extends React.Component {
             </a>
           </div>
         </nav>
-
-        <motion.ul
-          className="flex-row justify-center hidden sm:flex z-40"
-          initial={{ x: 20, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <Navegation href="/meu-portfolio" content="INÍCIO" />
-          <Navegation href="/academico" content="ACADÊMICO" />
-          <Navegation href="/professional" content="PROFISSIONAL" />
-          <Navegation href="/contato" content="CONTATO" />
-        </motion.ul>
       </nav>
     );
   }
