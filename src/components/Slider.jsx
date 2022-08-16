@@ -4,7 +4,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Nav from './Nav';
-import Footer from './Footer';
 
 
 export default function Slider(props) {
@@ -18,7 +17,6 @@ export default function Slider(props) {
         {...conf }
         className="relative flex flex-col"
     >
-      
       {
         array.map((instituicao) => (
           <SwiperSlide settings= { conf } className="flex justify-center items-center flex-col w-full h-full">
@@ -51,7 +49,6 @@ export default function Slider(props) {
             </div>
             <div></div>
           </div>
-            <Footer />
           </SwiperSlide>
         )) 
       }

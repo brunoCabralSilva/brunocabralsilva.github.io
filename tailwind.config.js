@@ -24,6 +24,7 @@ module.exports = {
       '450px': '450px',
       'sm': '640px',
       'md': '768px',
+      'lg': '1100px',
     },
     extend: {
       fontFamily: {
@@ -61,7 +62,6 @@ module.exports = {
         '50vw':'50vw',
       },
       backgroundImage: {
-        'wallpaper': "url('../src/images/3.png')",
         'me2': "url('../src/images/me2.jpg')"
       }
     },
