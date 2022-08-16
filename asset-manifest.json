@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu-portfolio/static/css/main.cf2816e5.css",
-    "main.js": "/meu-portfolio/static/js/main.be9bdf8c.js",
+    "main.css": "/meu-portfolio/static/css/main.61441448.css",
+    "main.js": "/meu-portfolio/static/js/main.8d7b486b.js",
     "static/media/3.png": "/meu-portfolio/static/media/3.1068335abab768c3e2cd.png",
     "static/media/project3.png": "/meu-portfolio/static/media/project3.7a9cdd47a503ae1feb6f.png",
     "static/media/ufcg.jpg": "/meu-portfolio/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -32,11 +32,11 @@
     "static/media/orbitall.jpg": "/meu-portfolio/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/bruno.png": "/meu-portfolio/static/media/bruno.18afb13424f626beae57.png",
     "index.html": "/meu-portfolio/index.html",
-    "main.cf2816e5.css.map": "/meu-portfolio/static/css/main.cf2816e5.css.map",
-    "main.be9bdf8c.js.map": "/meu-portfolio/static/js/main.be9bdf8c.js.map"
+    "main.61441448.css.map": "/meu-portfolio/static/css/main.61441448.css.map",
+    "main.8d7b486b.js.map": "/meu-portfolio/static/js/main.8d7b486b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf2816e5.css",
-    "static/js/main.be9bdf8c.js"
+    "static/css/main.61441448.css",
+    "static/js/main.8d7b486b.js"
   ]
 }
