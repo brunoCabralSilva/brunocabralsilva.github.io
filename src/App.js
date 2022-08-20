@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
+import Footer from './components/Footer';
 import { AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="*" component={NotFound} />
         </Switch>
+        <Footer />
       </AnimatePresence>
     </AnimateSharedLayout>
   );

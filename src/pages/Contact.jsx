@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/contact.css';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';

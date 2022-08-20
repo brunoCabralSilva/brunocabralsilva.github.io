@@ -42,8 +42,9 @@ class Nav extends React.Component {
   render() {
     const { color } = this.props;
     return (
-      <nav className="w-full h-header sm:pt-5 px-4 font-aboreto text-xl">
-        <div className="fixed w-12 h-12 top-3 right-3 p-2 z-50" onClick={this.openMenu}>
+      <nav className="fixed bg-heaven bg-center bg-cover w-full h-header px-3 font-aboreto text-xl flex flex-row z-50 flex flex-row justify-between items-center">
+        <img src={require('../images/01.png')} alt="logo com nome de Bruno" className="p-3 object-cover w-16" />
+        <div className="w-12 h-12 p-2 z-50" onClick={this.openMenu}>
           <div className={`w-full h-1 bg-${color} mt-1 transition duration-500 ${this.first()}`} />
           <div className={`w-full h-1 bg-${color} mt-1 transition duration-500 ${this.second()}`} />
           <div className={`w-full h-1 bg-${color} mt-1 transition duration-300 ${this.third()}`} />
@@ -60,19 +61,19 @@ class Nav extends React.Component {
               </Link>
             <Link
               to="/experience"
-              className="text-black pt-4 no-underline"
+              className="text-black pt-4 no-underline hover:font-bold"
             >
               Experiências
             </Link>
             <Link
               to="/projects"
-              className="text-black pt-4 no-underline"
+              className="text-black pt-4 no-underline hover:font-bold"
             >
               Projetos
             </Link>
             <Link
               to="/contato"
-              className="text-black py-4 no-underline"
+              className="text-black py-4 no-underline hover:font-bold"
             >
               Contato
             </Link>
