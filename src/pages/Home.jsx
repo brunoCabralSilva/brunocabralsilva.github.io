@@ -20,7 +20,7 @@ export default function Home() {
       </section>
       <button
         onClick={ () => history.push('/experience')}
-        className="pb-2 mt-12 border-b-3 font-normal bg-white border-h-color hover:border-transp font-normal hover:font-bold transition duration-1000 mb-20">
+        className="transition-weight pb-2 mt-12 border-b-3 font-normal bg-white border-h-color hover:border-transp font-normal hover:font-bold transition duration-1000 mb-20">
         Mais sobre mim
       </button>
       <Presentation />

@@ -37,15 +37,15 @@ module.exports = {
         '_45': '-45deg',
       },
       colors: {
-        'brown': '#967854',
         'glass': 'rgb(255,255,255,0.7)',
         't-transp': 'rgb(0, 0, 0, 0.5)',
         'transp': 'rgb(0, 0, 0, 0)',
-        'bege-transp': 'rgb(79, 58, 42, 0.5)',
         'h-color': '#89796D',
       },
       spacing: {
+        'row-3-2': '19rem',
         'row-3':'18rem',
+        'row-midle':'9rem',
         'row-2':'11.7rem',
         'row-1':'6rem',
         '100': '25rem',

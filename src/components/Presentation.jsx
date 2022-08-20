@@ -24,7 +24,7 @@ export default function Presentation() {
         </div>
           <button
             onClick={ () => history.push('/sobre')}
-            className="p-3 sm:mt-12 mt-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 md:mb-10 md:m-0">
+            className="transition-weight p-3 sm:mt-12 mt-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 md:mb-10 md:m-0">
             Mais sobre mim
           </button>
         </div>

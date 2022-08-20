@@ -7,6 +7,14 @@
     backdrop-filter: blur(10px);
 }
 
+.transition-text {
+    transition: font-size linear 1s;
+}
+
+.transition-weight {
+    transition: font-weight linear 1s;
+}
+
 .text-c {
     text-align: center;
 }
@@ -14,19 +22,6 @@
 .margin-b {
  margin-bottom: 2;
 }
-
-.swiper {
-
-}
-
-.swiper_slide {
-
-}
-
-.swiper-pagination-bullet-active {
-
-}
-
 .swiper-button-prev::after {
     color: white;
     margin-left: 55px;
