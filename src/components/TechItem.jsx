@@ -11,11 +11,11 @@ export default function TechItem(props) {
   const returnIcon = () => {
     switch (text) {
       case 'HTML':
-        return <AiFillHtml5 className="text-7xl mx-3 sm:mx-0 sm:mr-3 mr-0" />
+        return <AiFillHtml5 className="text-7.5xl mx-3 sm:mx-0 sm:mr-3 mr-0" />
       case 'CSS':
         return <IoLogoCss3 className="text-7xl mx-3" />
       case 'JS':
-        return <DiJavascript className="text-7xl mx-3" />
+        return <DiJavascript className="text-7.5xl mx-3" />
       case 'React':
         return <GrReactjs className="text-7xl mx-3 mb-2 md:mx-3" />
       case 'Redux':

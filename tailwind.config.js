@@ -29,6 +29,9 @@ module.exports = {
       '2xl':	'1536px',
     },
     extend: {
+      fontSize: {
+        '7.5xl': '5.1rem',
+      },
       fontFamily: {
         'cormorant': ['Cormorant SC', 'serif'],
         'aboreto': ['Aboreto', 'cursive'],
