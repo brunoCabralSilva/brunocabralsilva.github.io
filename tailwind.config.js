@@ -46,7 +46,7 @@ module.exports = {
       },
       spacing: {
         'row-3':'18rem',
-        'row-2':'12rem',
+        'row-2':'11.7rem',
         'row-1':'6rem',
         '100': '25rem',
         '15%': '15%',
@@ -82,6 +82,7 @@ module.exports = {
       backgroundImage: {
         'heaven': "url('../src/images/h.png')",
         'heaven2': "url('../src/images/h2.png')",
+        'heaven3': "url('../src/images/h4.png')"
       }
     },
   },

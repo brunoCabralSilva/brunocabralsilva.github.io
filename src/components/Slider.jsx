@@ -1,10 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {Navigation, Pagination} from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Nav from './Nav';
-
 
 export default function Slider(props) {
   const {array, type } = props;
@@ -21,9 +19,6 @@ export default function Slider(props) {
         array.map((instituicao) => (
           <SwiperSlide settings= { conf } className="flex justify-center items-center flex-col w-full h-full">
           <div className="flex w-screen h-screen justify-between relative flex-col">
-            <div className="text-white">
-              <Nav font="bg-white" className="z-40"  />
-            </div>
             <div className="text-white">
             </div>
             <div className="h-full w-full absolute bg-gradient-to-t from-black to-t-transp z-10" />

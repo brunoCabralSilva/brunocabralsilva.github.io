@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Footer from '../components/Footer';
 
 class NotFound extends React.Component {
   render() {
@@ -12,7 +11,6 @@ class NotFound extends React.Component {
         <section>
           Not Found
         </section>
-        <Footer />
       </section >
     );
   }

@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import GridPortfolio from '../components/GridPortfolio';
 import Presentation from '../components/Presentation';
 import Header from '../components/Header';
+import Technologies from '../components/Technologies';
 
 export default function Home() {
   const history = useHistory();
@@ -14,7 +15,7 @@ export default function Home() {
       <section className="relative">
         <p className="font-aboreto text-4xl sm:text-5xl pt-10 md:text-6xl md:pt-0 text-black w-full text-center z-50">BRUNO CABRAL</p>
         <p className="w-2/3 sm:w-1/3 text-center mx-auto mt-4">
-        Nascido em Campina Grande, segunda maior cidade da Paraíba, desde cedo carrego a dedicação em me qualificar no mercado de trabalho. Do ramo da eletrônica até a informática, tive incontáveis aprendizados que levarei para toda a vida.
+        Nascido em Campina Grande, segunda maior cidade da Paraíba, desde cedo carrego a dedicação em me qualificar no mercado de trabalho. Apaixonado por RPG e Nordeste, amante da tecnologia e estudante de Desenvolvimento Web na Trybe!
         </p>
       </section>
       <button
@@ -24,6 +25,7 @@ export default function Home() {
       </button>
       <Presentation />
       <GridPortfolio />
+      <Technologies />
     </body>
   );
 }

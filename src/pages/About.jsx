@@ -1,11 +1,10 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Slider from "../components/Slider";
-import Footer from '../components/Footer';
 import academics from '../data/academics.json';
 import professional from '../data/professional.json';
 
-function Experience() {
+function About() {
     return (
       <div>
         <Nav color="black" className="z-50" />
@@ -15,8 +14,7 @@ function Experience() {
         <section>
           <Slider array={professional} type="professional"  />
       </section>
-      <Footer />
       </div>
     );
         }
-    export default Experience;
+    export default About;

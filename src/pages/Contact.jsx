@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 
 class Contact extends React.Component {
@@ -49,7 +48,6 @@ class Contact extends React.Component {
             </div>
           </motion.div>
         </motion.section>
-        <Footer />
       </section >
     );
   }
