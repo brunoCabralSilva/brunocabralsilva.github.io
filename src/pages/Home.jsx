@@ -11,7 +11,7 @@ export default function Home() {
   return(
     <body className="flex flex-col items-center">
       <Nav color="white" />
-      <Header />
+      <Header img="me-squad.png" />
       <section className="relative">
         <p className="font-aboreto text-4xl sm:text-5xl pt-10 md:text-6xl md:pt-0 text-black w-full text-center z-50">BRUNO CABRAL</p>
         <p className="w-2/3 sm:w-1/3 text-center mx-auto mt-4">
@@ -19,7 +19,7 @@ export default function Home() {
         </p>
       </section>
       <button
-        onClick={ () => history.push('/experience')}
+        onClick={ () => history.push('/sobre')}
         className="transition-weight pb-2 mt-12 border-b-3 font-normal bg-white border-h-color hover:border-transp font-normal hover:font-bold transition duration-1000 mb-20">
         Mais sobre mim
       </button>

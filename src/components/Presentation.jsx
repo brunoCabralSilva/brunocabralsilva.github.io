@@ -23,9 +23,9 @@ export default function Presentation() {
           <img src={require('../images/escritorio.jpg')} alt="" className="w-full h-full object-cover opacity-70" />
         </div>
           <button
-            onClick={ () => history.push('/sobre')}
+            onClick={ () => history.push('/contato')}
             className="transition-weight p-3 sm:mt-12 mt-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 md:mb-10 md:m-0">
-            Mais sobre mim
+            Contatos
           </button>
         </div>
       </div>
