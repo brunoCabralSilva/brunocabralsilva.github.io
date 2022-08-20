@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiJavascript } from "react-icons/di";
+import { DiJavascript, DiNodejsSmall } from "react-icons/di";
+import { FaDocker } from "react-icons/fa";
 import { SiRedux, SiTailwindcss } from "react-icons/si";
 import { GrMysql, GrReactjs } from "react-icons/gr";
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -33,20 +34,31 @@ export default function Technologies() {
             <SiRedux className="text-7xl mx-3 md:mx-3 mb-2" />
               Redux
             </div>
-            <div className="flex flex-col justify-center items-center">
-            <GrMysql className="text-7xl mx-3 md:mx-3 mb-2" />
-              MySql
+            <div className="flex flex-col justify-center items-center w-28">
+              <img 
+                src={require("../images/framer1.png")}
+                alt="ícone do framer motion"
+                className="object-contain px-4 pb-2 pt-1"
+              />
+              Motion
             </div>
             <div className="flex flex-col justify-center items-center">
             <SiTailwindcss className="text-7xl mx-3 md:mx-3 mb-2" />
               Tailwind
             </div>
-            {/* <img 
-              src={require("../images/technologies/framer.png")}
-              alt="ícone do framer motion"
-              className="w-3/12 sm:w-2/12 lg:w-1/12 object-contain px-3"
-            /> */}
+            <div className="flex flex-col justify-center items-center">
+            <FaDocker className="text-7xl mx-3 md:mx-3 mb-2" />
+              Docker
             </div>
+            <div className="flex flex-col justify-center items-center">
+            <GrMysql className="text-7xl mx-3 md:mx-3 mb-2" />
+              MySql
+            </div>
+            <div className="flex flex-col justify-center items-center">
+            <DiNodejsSmall className="text-7xl mx-3 md:mx-3 mb-2" />
+              Node
+            </div>
+          </div>
         </div>
       </section>
     );
