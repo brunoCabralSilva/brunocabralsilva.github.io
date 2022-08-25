@@ -1,6 +1,6 @@
 import React from 'react';
 import './app.css';
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
@@ -10,16 +10,15 @@ import Footer from './components/Footer';
 import { AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 
 function App() {
-  const location = useLocation();
   return (
     <AnimateSharedLayout>
       <AnimatePresence>
-        <Switch location={location} key={location.key}>
+        <Switch>
           <Route exact path="/meu-portfolio" component={Home} />
-          <Route path="/contato" component={Contact} />
-          <Route path="/sobre" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="*" component={NotFound} />
+          <Route exact path="/contato" component={Contact} />
+          <Route exact path="/sobre" component={About} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="*" component={NotFound} />
         </Switch>
         <Footer />
       </AnimatePresence>

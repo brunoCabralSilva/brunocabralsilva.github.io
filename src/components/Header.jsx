@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function Header(props) {
   const { img } = props;
@@ -10,4 +11,8 @@ export default function Header(props) {
       </div>
     </main>
   );
+}
+
+Header.propTypes = {
+  img: PropTypes.string.isRequired,
 }

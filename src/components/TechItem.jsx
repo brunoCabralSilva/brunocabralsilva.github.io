@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { DiJavascript, DiNodejsSmall } from "react-icons/di";
 import { FaDocker } from "react-icons/fa";
 import { SiRedux, SiTailwindcss } from "react-icons/si";
@@ -48,4 +49,8 @@ export default function TechItem(props) {
       { text }
     </motion.div>
   );
+}
+
+TechItem.propTypes = {
+  text: PropTypes.string.isRequired,
 }

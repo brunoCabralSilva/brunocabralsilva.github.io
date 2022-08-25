@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import Nav from '../components/Nav';
 import GridPortfolio from '../components/GridPortfolio';
@@ -8,6 +8,9 @@ import Technologies from '../components/Technologies';
 
 export default function Home() {
   const history = useHistory();
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[]);
   return(
     <body className="flex flex-col items-center">
       <Nav color="white" />
@@ -19,7 +22,7 @@ export default function Home() {
         </p>
       </section>
       <button
-        onClick={ () => history.push('/sobre')}
+        onClick={ () => history.push('/sobre') }
         className="transition-weight pb-2 mt-12 border-b-3 font-normal bg-white border-h-color hover:border-transp font-normal hover:font-bold transition duration-1000 mb-20">
         Mais sobre mim
       </button>

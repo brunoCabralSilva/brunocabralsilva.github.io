@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { ImGithub } from "react-icons/im";
 import { FaHeadphonesAlt, FaWolfPackBattalion } from "react-icons/fa";
 import { MdFastfood, MdCatchingPokemon } from "react-icons/md";
@@ -50,4 +51,10 @@ export default function ItemPortFolio(props) {
     </div>
   </motion.a>
   );
+}
+
+ItemPortFolio.propTypes = {
+  link: PropTypes.string.isRequired,
+  grid: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 }
