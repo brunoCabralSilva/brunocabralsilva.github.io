@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export default function Presentation() {
   const history = useHistory();
@@ -22,11 +23,12 @@ export default function Presentation() {
         <div className="hidden md:flex bg-h-color md:m-10 m-0 w-full h-70vh">
           <img src={require('../images/escritorio.jpg')} alt="" className="w-full h-full object-cover opacity-70" />
         </div>
-          <button
+          <motion.button
+            whileHover={{ scale: 1.1 }}
             onClick={ () => history.push('/contato')}
-            className="transition-weight p-3 sm:mt-12 mt-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 md:mb-10 md:m-0">
+            className="p-3 sm:mt-12 mt-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 md:mb-10 md:m-0">
             Contatos
-          </button>
+          </motion.button>
         </div>
       </div>
     </section>

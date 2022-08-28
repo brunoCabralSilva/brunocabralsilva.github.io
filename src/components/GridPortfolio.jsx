@@ -1,7 +1,8 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import ItemPortFolio from '../components/ItemPortfolio';
-import portfolio from '../portfolio';
+import portfolio from '../data/portfolio.json';
 
 export default function GridPortfolio() {
   const history = useHistory();
@@ -20,11 +21,12 @@ export default function GridPortfolio() {
         ))
       }
       </div>
-      <button
+      <motion.button
+        whileHover={{ scale:1.1 }}
         onClick={ () => history.push('/projects')}
-        className="transition-weight p-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 z-40">
+        className="p-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 z-40">
         Portfolio completo
-      </button>
+      </motion.button>
     </section>
   );
 }

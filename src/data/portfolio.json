@@ -1,39 +1,51 @@
-const portfolio = [
+[
   {
     "link": "https://github.com/brunoCabralSilva",
     "grid": "col-span-1 row-span-3 h-row-3",
-    "text": "Github"
+    "text": "Github",
+    "favorito": false,
+    "image": ""
   },
   {
     "link": "https://github.com/brunoCabralSilva/trybe-18-wallet",
     "grid": "col-span-1 row-span-2 h-row-2",
-    "text": "Wallet"
+    "text": "Wallet",
+    "favorito": false,
+    "image": "wallet.png"
   },
   {
     "link": "https://github.com/brunoCabralSilva/trybe-20-recipes",
     "grid": "col-span-1 row-span-3 h-row-3",
-    "text": "Recipes"
+    "text": "Recipes",
+    "favorito": true,
+    "image": "recipes.png"
   },
   {
     "link": "https://github.com/brunoCabralSilva/pokedex-react",
     "grid": "col-span-1 row-span-2 h-row-2",
-    "text": "Pokedex"
+    "text": "Pokedex",
+    "favorito": false,
+    "image": "pokedex.png"
   },
   {
     "link": "https://github.com/brunoCabralSilva/guia-das-matilhas",
     "grid": "col-span-1 row-span-3 sm:h-row-3 h-row-3-2",
-    "text": "Guia das Matilhas"
+    "text": "Guia das Matilhas",
+    "favorito": true,
+    "image": "guia-das-matilhas.jpg"
   },
   {
     "link": "https://github.com/brunoCabralSilva/trybe-19-trivia",
     "grid": "col-span-1 sm:row-span-3 row-span-1 sm:h-row-3 h-row-midle",
-    "text": "Trivia"
+    "text": "Trivia",
+    "favorito": false,
+    "image": "trivia.jpg"
   },
   {
     "link": "https://github.com/brunoCabralSilva/trybe-14-tunes",
     "grid": "col-span-1 row-span-2 sm:h-row-2 h-row-midle",
-    "text": "Tunes"
+    "text": "Tunes",
+    "favorito": false,
+    "image": "tunes.jpg"
   }
 ]
-
-export default portfolio;

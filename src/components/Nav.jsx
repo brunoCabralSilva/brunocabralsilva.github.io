@@ -55,7 +55,13 @@ export default function Nav(props) {
 
   return (
     <nav className="fixed bg-heaven bg-center bg-cover w-full h-header px-3 font-aboreto text-xl flex flex-row z-50 flex flex-row justify-between items-center">
-      <img src={require('../images/01.png')} alt="logo com nome de Bruno" className={`p-3 object-cover w-16 }`} onClick={ () => history.push('/meu-portfolio') } />
+      <motion.img
+        whileHover={{scale: 1.3}}
+        src={require('../images/01.png')}
+        alt="logo com nome de Bruno"
+        className={`p-3 object-cover w-16 }`}
+        onClick={ () => history.push('/meu-portfolio') }
+      />
       <div className="w-12 h-12 p-2 z-50" onClick={openMenu}>
         <div className={`w-full h-1 bg-${bgColor} mt-1 transition duration-500 ${first()}`} />
         <div className={`w-full h-1 bg-${bgColor} mt-1 transition duration-500 ${second()}`} />
@@ -64,7 +70,7 @@ export default function Nav(props) {
       <nav className={`h-screen glassmorphism bg-glass flex flex-col items-center fixed top-0 right-0 pb-3 ${floatMenu()}`}>
         <img src={require('../images/02.png')} alt="logo com nome de Bruno" className={`pl-2 pt-28 w-3/12 mb-5 ${hiddenVisible()}`} />
         <hr className={`mt-3 mb-4 mx-2 text-black w-2/3 ${hiddenVisible()}`} />
-        <div className={`flex-col text-lg text-center my-10 z-30 ${hiddenVisible()}`}>
+        <div className={`flex-col text-lg text-center my-10 z-50 ${hiddenVisible()}`}>
           <Link
             to="/meu-portfolio"
             className="text-black no-underline hover:font-bold"

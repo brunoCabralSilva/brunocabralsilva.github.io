@@ -42,6 +42,7 @@ module.exports = {
       colors: {
         'glass': 'rgb(255,255,255,0.7)',
         't-transp': 'rgb(0, 0, 0, 0.5)',
+        'dark-transp': 'rgb(0, 0, 0, 0.8)',
         'transp': 'rgb(0, 0, 0, 0)',
         'h-color': '#89796D',
       },
@@ -77,6 +78,7 @@ module.exports = {
         '80vh':'80vh',
         '85vh': '85vh',
         '90vh': '90vh',
+        '85%':'85%',
         'header': '10vh',
         '30vw': '28vw',
         '50vw':'50vw',

@@ -25,7 +25,7 @@ export default function Slider(props) {
             </div>
             <div className="relative w-full sm:w-9/12 sm:h-70vh sm:my-20 relative flex flex-col sm:flex-row items-center justify-center">
               <div className="flex w-full h-full sm:right-0 sm:top-0 rounded-2xl justify-center sm:justify-end sm:absolute">
-                <img src={require(`../images/${instituicao.imagem}`)} className="m-4 rounded-full sm:rounded-2xl sm:h-4/5 h-48 w-48 sm:w-2/3 object-cover opacity-80 bg-heaven bg-cover bg-center" alt="" />
+                <img src={require(`../images/${instituicao.imagem}`)} className="m-4 sm:rounded-2xl sm:h-4/5 h-48 w-85% sm:w-2/3 object-cover opacity-80 bg-heaven bg-cover bg-center" alt="" />
               </div>
               <div className="left-0 flex w-full h-full items-end justify-start rounded-2xl sm:absolute">
                 <div className="sm:m-4 rounded-2xl h-2/3 w-full sm:w-1/2 bg-cover bg-none sm:bg-white flex justify-center items-center relative" alt="">
