@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu-portfolio/static/css/main.7cba1352.css",
-    "main.js": "/meu-portfolio/static/js/main.d08b396c.js",
+    "main.css": "/meu-portfolio/static/css/main.033ac06e.css",
+    "main.js": "/meu-portfolio/static/js/main.7a3f40fa.js",
     "static/media/pokedex.png": "/meu-portfolio/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/meu-portfolio/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/meu-portfolio/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -20,6 +20,7 @@
     "static/media/me-squad.png": "/meu-portfolio/static/media/me-squad.13405db414ad05ef0f6e.png",
     "static/media/wallpaper-notebook.jpg": "/meu-portfolio/static/media/wallpaper-notebook.e219997efa973d0e44af.jpg",
     "static/media/aec.jpg": "/meu-portfolio/static/media/aec.5427a76dfa3d8f151bc0.jpg",
+    "static/media/mythos.jpg": "/meu-portfolio/static/media/mythos.48e6f5d400864b441896.jpg",
     "static/media/h2.png": "/meu-portfolio/static/media/h2.89a3daa39b910ed435f4.png",
     "static/media/h.png": "/meu-portfolio/static/media/h.4d3c5619e1fbb7ea388b.png",
     "static/media/redentorista.png": "/meu-portfolio/static/media/redentorista.a2ad9c1e05f4f5eb0bed.png",
@@ -28,6 +29,7 @@
     "static/media/uninassau.jpeg": "/meu-portfolio/static/media/uninassau.55671cd5ff55663ee4d5.jpeg",
     "static/media/escritorio.jpg": "/meu-portfolio/static/media/escritorio.5fde1ed58c058438c1fa.jpg",
     "static/media/escritorio2.jpg": "/meu-portfolio/static/media/escritorio2.757b0fed3373bb7037f9.jpg",
+    "static/media/online-store.jpg": "/meu-portfolio/static/media/online-store.70d8cf656fc66c06405f.jpg",
     "static/media/nassau.png": "/meu-portfolio/static/media/nassau.fd422f6aa324fd2fdcfd.png",
     "static/media/wallet.png": "/meu-portfolio/static/media/wallet.ef456c4a8b72ef4feab2.png",
     "static/media/01.png": "/meu-portfolio/static/media/01.8e5f456f0dc8052b0184.png",
@@ -35,11 +37,11 @@
     "static/media/orbitall.jpg": "/meu-portfolio/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/meu-portfolio/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/meu-portfolio/index.html",
-    "main.7cba1352.css.map": "/meu-portfolio/static/css/main.7cba1352.css.map",
-    "main.d08b396c.js.map": "/meu-portfolio/static/js/main.d08b396c.js.map"
+    "main.033ac06e.css.map": "/meu-portfolio/static/css/main.033ac06e.css.map",
+    "main.7a3f40fa.js.map": "/meu-portfolio/static/js/main.7a3f40fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cba1352.css",
-    "static/js/main.d08b396c.js"
+    "static/css/main.033ac06e.css",
+    "static/js/main.7a3f40fa.js"
   ]
 }
