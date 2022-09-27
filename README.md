@@ -2,4 +2,4 @@
 
 <h3 align="center">https://brunocabralsilva.github.io/meu-portfolio/</h3>
 
-<img src="src/imagens/image.png" alt="meu-portfolio" />
+<img src="src/images/image.png" alt="meu-portfolio" />
