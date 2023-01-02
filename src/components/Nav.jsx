@@ -72,7 +72,7 @@ export default function Nav(props) {
         <hr className={`mt-3 mb-4 mx-2 text-black w-2/3 ${hiddenVisible()}`} />
         <div className={`flex-col text-lg text-center my-10 z-50 ${hiddenVisible()}`}>
           <Link
-            to="/meu-portfolio"
+            to="/"
             className="text-black no-underline hover:font-bold"
             >
               Início

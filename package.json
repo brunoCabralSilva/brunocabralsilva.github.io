@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-bruno-cabral",
+  "name": "brunocabralsilva",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
-  "homepage": "https://brunoCabralSilva.github.io/meu-portfolio",
+  "homepage": "https://brunocabralsilva.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

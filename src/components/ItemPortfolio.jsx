@@ -10,8 +10,8 @@ import { motion } from 'framer-motion';
 export default function ItemPortFolio(props) {
   const {
     link,
-    grid,
     text,
+    index,
   } = props;
 
   const returnIcon = () => {
@@ -35,12 +35,34 @@ export default function ItemPortFolio(props) {
     }
   }
 
+  const returnGridDescriptions = () => {
+    console.log(index);
+    switch (index) {
+      case 0:
+        return 'col-span-1 row-span-3 h-row-3';
+      case 1:
+        return 'col-span-1 row-span-2 h-row-2';
+      case 2:
+        return 'col-span-1 row-span-3 h-row-3';
+      case 3:
+        return 'col-span-1 row-span-2 h-row-2';
+      case 4:
+        return 'col-span-1 row-span-3 sm:h-row-3 h-row-3-2';
+      case 5:
+        return 'col-span-1 sm:row-span-3 row-span-1 sm:h-row-3 h-row-midle';
+      case 6:
+        return 'col-span-1 row-span-2 sm:h-row-2 h-row-midle';
+      default :
+        return '';
+    }
+  };
+
   return (
   <motion.a
     whileHover={{ scale: 0.98 }}
     href={link}
     target="_blank"
-    className={`relative ${grid} relative flex items-end" `}
+    className={`relative ${returnGridDescriptions()} relative flex items-end" `}
     rel="noreferrer"
   >
     <div className="absolute h-full w-full bg-white opacity-10 hover:opacity-0 z-20 duration-500 transition" />
@@ -55,6 +77,6 @@ export default function ItemPortFolio(props) {
 
 ItemPortFolio.propTypes = {
   link: PropTypes.string.isRequired,
-  grid: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
 }

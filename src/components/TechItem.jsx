@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { DiJavascript, DiNodejsSmall } from "react-icons/di";
 import { FaDocker } from "react-icons/fa";
-import { SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiMongodb } from "react-icons/si";
 import { GrMysql, GrReactjs } from "react-icons/gr";
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -37,6 +37,8 @@ export default function TechItem(props) {
         return <GrMysql className="mt-3 sm:mt-0 text-7xl mx-3 md:mx-3 mb-2" />
       case 'Node':
         return <DiNodejsSmall className="mt-3 sm:mt-0 text-7xl mx-3 md:mx-3 mb-2" />
+      case 'MongoDB':
+        return <SiMongodb className="mt-3 sm:mt-0 text-7xl mx-3 md:mx-3 mb-2" />
       default:
         return null;
     }

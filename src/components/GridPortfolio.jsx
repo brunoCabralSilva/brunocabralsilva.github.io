@@ -8,14 +8,14 @@ export default function GridPortfolio() {
   const history = useHistory();
   return(
     <section className="w-full flex flex-col items-center justify-center relative pt-14">
-      <p className="mt-8 sm:mt-14 mb-2 w-10/12 md:text-left text-c pb-3 pb-0 font-aboreto md:mx-10 text-4xl sm:text-5xl md:text-6xl z-30">Portfolio</p>
+      <p className="mt-8 sm:mt-14 mb-2 w-10/12 md:text-left text-c pb-3 font-aboreto md:mx-10 text-4xl sm:text-5xl md:text-6xl z-30">Portfolio</p>
       <div className="mb-3 z-30 grid grid-rows-3 sm:grid-rows-6 gap-3 grid-cols-2 sm:grid-cols-3 w-10/12">
       {
         portfolio.map((project, index) => (
           <ItemPortFolio
+            key={ index }
             index={ index }
             link={ project.link }
-            grid={ project.grid }
             text={ project.text }
           />
         ))
