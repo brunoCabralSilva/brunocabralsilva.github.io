@@ -54,13 +54,13 @@ export default function Nav(props) {
   }
 
   return (
-    <nav className="fixed bg-heaven bg-center bg-cover w-full h-header px-3 font-aboreto text-xl flex flex-row z-50 flex flex-row justify-between items-center">
+    <nav className="fixed bg-heaven bg-center bg-cover w-full h-header px-3 font-aboreto text-xl z-50 flex flex-row justify-between items-center">
       <motion.img
         whileHover={{scale: 1.3}}
         src={require('../images/01.png')}
         alt="logo com nome de Bruno"
         className={`p-3 object-cover w-16 }`}
-        onClick={ () => history.push('/meu-portfolio') }
+        onClick={ () => history.push('/') }
       />
       <div className="w-12 h-12 p-2 z-50" onClick={openMenu}>
         <div className={`w-full h-1 bg-${bgColor} mt-1 transition duration-500 ${first()}`} />

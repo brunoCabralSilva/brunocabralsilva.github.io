@@ -1,11 +1,11 @@
 import React from 'react';
 import './app.css';
 import { Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import NotFound from './pages/NotFound';
+import Home from './pages/Home.tsx';
+import Contact from './pages/Contact.tsx';
+import About from './pages/About.tsx';
+import Projects from './pages/Projects.tsx';
+import NotFound from './pages/NotFound.tsx';
 import Footer from './components/Footer';
 import { AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 
