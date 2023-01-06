@@ -1,7 +1,11 @@
 import React from 'react';
 import Nav from '../components/Nav';
 
-export default class NotFound extends React.Component {
+interface NotFoundProps {
+  history: any,
+}
+
+export default class NotFound extends React.Component<NotFoundProps, {}> {
   componentDidMount() {
     window.scrollTo(0, 0);
   };
@@ -10,7 +14,11 @@ export default class NotFound extends React.Component {
     return (
       <section className="h-screen">
         <div>
-          <Nav color="" />
+        <Nav
+          history={ this.props.history }
+          img=""
+          color=""
+        />
         </div>
         <section className="text-black pt-20">
           Not Found

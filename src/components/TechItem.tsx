@@ -8,9 +8,13 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
 import { motion } from 'framer-motion';
 
-export default function TechItem(props) {
-  const { text } = props;
-  const returnIcon = () => {
+interface TechProps {
+  text: string,
+}
+
+export default class TechItem extends React.Component<TechProps, {}> {
+  returnIcon = () => {
+    const { text } = this.props;
     switch (text) {
       case 'HTML':
         return <AiFillHtml5 className="mt-3 sm:mt-0 text-7.5xl mx-3 sm:mx-0 sm:mr-3 mr-0" />
@@ -44,17 +48,17 @@ export default function TechItem(props) {
       default:
         return null;
     }
+  };
+  
+  render() {
+    const { text } = this.props;
+    return(
+      <motion.div
+        whileHover={{ scale: 1.2 }}
+        className="flex flex-col justify-center items-center mt-3">
+        <div className="h-24 flex items-center">{ this.returnIcon() }</div>
+        <div className="flex items-end" >{ text }</div>
+      </motion.div>
+    );
   }
-  return(
-    <motion.div
-      whileHover={{ scale: 1.2 }}
-      className="flex flex-col justify-center items-center mt-3">
-      <div className="h-24 flex items-center">{ returnIcon() }</div>
-      <div className="flex items-end" >{ text }</div>
-    </motion.div>
-  );
-}
-
-TechItem.propTypes = {
-  text: PropTypes.string.isRequired,
 }

@@ -6,7 +6,15 @@ import Nav from '../components/Nav';
 import Header from '../components/Header';
 import { NewPort } from '../interfaces';
 
-export default class Projects extends React.Component {
+interface ProjectsProps {
+  history: any,
+};
+
+interface ProjectState {
+
+};
+
+export default class Projects extends React.Component<ProjectsProps, ProjectState> {
   state = {
     isToggled: false,
     object: {
@@ -31,9 +39,13 @@ export default class Projects extends React.Component {
     return (
       <section>
         <Nav
+          history={ this.props.history }
+          img=""
           color="white"
         />
-        <Header img="me2.jpg" />
+        <Header
+          img="me2.jpg"
+        />
         <section className="pt-10 sm:pt-20 flex flex-row flex-wrap items-center w-full my-10">
           {
             newPort.map((port: NewPort) => (

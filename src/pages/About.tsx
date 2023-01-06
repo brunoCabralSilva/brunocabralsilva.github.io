@@ -2,7 +2,11 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Header from '../components/Header';
 
-export default class About extends React.Component {
+interface AboutProps {
+  history: any,
+}
+
+export default class About extends React.Component<AboutProps, { }> {
   componentDidMount() {
     window.scrollTo(0, 0);
   };
@@ -10,7 +14,11 @@ export default class About extends React.Component {
   render() {
     return (
       <div>
-        <Nav color="white" />
+        <Nav
+          history={ this.props.history }
+          img=""
+          color="white"
+        />
         <Header img="me2.jpg" />
         <section className="relative">
           <p className="font-aboreto text-4xl sm:text-5xl pt-10 md:text-6xl md:pt-0 text-black w-full text-center z-50">SOBRE MIM</p>

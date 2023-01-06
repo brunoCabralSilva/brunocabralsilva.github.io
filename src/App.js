@@ -6,7 +6,7 @@ import Contact from './pages/Contact.tsx';
 import About from './pages/About.tsx';
 import Projects from './pages/Projects.tsx';
 import NotFound from './pages/NotFound.tsx';
-import Footer from './components/Footer';
+import Footer from './components/Footer.tsx';
 import { AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 
 function App() {

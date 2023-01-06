@@ -2,11 +2,19 @@ import React from 'react';
 import Nav from '../components/Nav';
 import { motion } from 'framer-motion';
 
-export default class Contact extends React.Component {
+interface ContactProps {
+  history: any,
+}
+
+export default class Contact extends React.Component<ContactProps, {}> {
   render() {
     return (
       <section>
-        <Nav color="" />
+        <Nav
+          history={ this.props.history }
+          img=""
+          color=""
+        />
         <motion.section>
           <motion.div
             className="div-contact"
