@@ -7,8 +7,8 @@ import Header from '../components/Header';
 import Technologies from '../components/Technologies';
 
 interface AppProps {
-  img: any,
-  color: any,
+  img: string,
+  color: string,
   history: any,
 }
 

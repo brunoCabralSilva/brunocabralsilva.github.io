@@ -13,29 +13,29 @@ interface ItemPortProps {
 }
 
 export default class ItemPortFolio extends React.Component<ItemPortProps, { }> {
-  returnIcon = () => {
+  returnIcon = (): any => {
     const { text } = this.props;
-    const classes = `transition-text text-7xl text-center p-2 text-black transition duration-1000 z-30`;
+    const classes: string = `transition-text text-7xl text-center p-2 text-black transition duration-1000 z-30`;
     switch(text) {
-      case "Wallet":
+      case 'Wallet':
       return <IoWalletOutline className={classes} />;
-      case "Guia das Matilhas":
+      case 'Guia das Matilhas':
       return <FaWolfPackBattalion className={classes} />;
-      case "Pokedex":
+      case 'Pokedex':
       return <MdCatchingPokemon className={classes} />;
-      case "Recipes":
+      case 'Recipes':
       return <MdFastfood className={classes} />;
-      case "Trivia":
+      case 'Trivia':
       return <ImQuestion className={classes} />;
-      case "Tunes":
+      case 'Tunes':
       return <FaHeadphonesAlt className={classes} />;
-      case "Github":
+      case 'Github':
       return <ImGithub className={classes} />;
-      default: return null;
+      default: return '';
     }
   };
 
-  returnGridDescriptions = () => {
+  returnGridDescriptions = (): string => {
     const { index } = this.props;
     switch (index) {
       case 0:

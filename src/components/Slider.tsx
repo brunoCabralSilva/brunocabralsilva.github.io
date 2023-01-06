@@ -5,12 +5,22 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-interface SliderProps {
-  array: any,
-  type: any,
-}
+interface interfaceArrayType {
+  academia?: string,
+  empresa?: string,
+  curso?: string,
+  cargo?: string,
+  dataConclusão: string,
+  dataInicio: string,
+  descricao: string[],
+  duracao: string,
+  imagem: string,
+};
 
-//Necessário corrigir os tipos deste componente
+interface SliderProps {
+  array: interfaceArrayType[],
+  type: string,
+}
 
 export default class Slider extends React.Component<SliderProps, {}> {
   render() {
@@ -23,7 +33,7 @@ export default class Slider extends React.Component<SliderProps, {}> {
         loop={ true }
       >
         {
-          array.map((instituicao: any) => (
+          array.map((instituicao) => (
             <SwiperSlide className="w-full bg-cover bg-center flex items-center justify-center mb-20">
               <div className="absolute w-full h-full sm:h-90vh z-0">
                 <div className="w-full h-1/2 hidden sm:flex " />
@@ -33,7 +43,7 @@ export default class Slider extends React.Component<SliderProps, {}> {
               </div>
               <div className="relative w-full sm:w-9/12 sm:h-70vh sm:my-20 flex flex-col sm:flex-row items-center justify-center">
                 <div className="flex w-full h-full sm:right-0 sm:top-0 rounded-2xl justify-center sm:justify-end sm:absolute">
-                  <img src={require(`../images/${instituicao.imagem}`)} className="m-4 sm:rounded-2xl sm:h-4/5 h-48 w-85% sm:w-2/3 object-cover opacity-80 bg-heaven bg-cover bg-center" alt="" />
+                  <img src={require(`../images/works-academy/${instituicao.imagem}`)} className="m-4 sm:rounded-2xl sm:h-4/5 h-48 w-85% sm:w-2/3 object-cover opacity-80 bg-heaven bg-cover bg-center" alt="" />
                 </div>
                 <div className="left-0 flex w-full h-full items-end justify-start rounded-2xl sm:absolute">
                   <div className="sm:m-4 rounded-2xl h-2/3 w-full sm:w-1/2 bg-cover bg-none sm:bg-white flex justify-center items-center relative">
@@ -52,7 +62,7 @@ export default class Slider extends React.Component<SliderProps, {}> {
                         {`de ${instituicao.dataInicio} até ${instituicao.dataConclusão} - ${instituicao.duracao}`}
                       </p>
                       <p className="py-2 text-left mb-10">
-                        {instituicao.descricao.map((desc: any) => (
+                        {instituicao.descricao.map((desc) => (
                       <span className="py-2 text-left">{desc}</span>
                       ))}
                       </p>

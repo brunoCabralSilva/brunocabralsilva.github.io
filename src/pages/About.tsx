@@ -1,6 +1,9 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Header from '../components/Header';
+import Slider from '../components/Slider';
+import academics from '../data/academics.json';
+import professional from '../data/professional.json';
 
 interface AboutProps {
   history: any,
@@ -43,8 +46,8 @@ export default class About extends React.Component<AboutProps, { }> {
               alt=""
             />
         </div>
-        {/* <Slider type = "academics" array ={ academics } />
-        <Slider type = "professional" array ={ professional } /> */}
+        <Slider type = "academics" array ={ academics } />
+        <Slider type = "professional" array ={ professional } />
       </div>
     );
   };

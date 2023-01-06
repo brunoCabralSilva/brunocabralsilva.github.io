@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { DiJavascript, DiNodejsSmall } from "react-icons/di";
 import { FaDocker } from "react-icons/fa";
 import { SiRedux, SiTailwindcss, SiMongodb, SiTypescript } from "react-icons/si";

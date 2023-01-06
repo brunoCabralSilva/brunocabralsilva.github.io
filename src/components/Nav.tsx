@@ -19,13 +19,13 @@ export default class Nav extends React.Component<NavProps, NavState> {
     bgColor: 'white',
   };
 
-  componentDidMount() {
-    const { color } = this.props;
+  componentDidMount(): void {
     window.scrollTo(0, 0);
+    const { color } = this.props;
     this.setState({ bgColor: color });
   };
   
-  openMenu = () => {
+  openMenu = (): void => {
     const { open } = this.state;
     this.setState({ open: !open });
     if (open) {
@@ -35,35 +35,35 @@ export default class Nav extends React.Component<NavProps, NavState> {
     }
   }
 
-  first = () => {
+  first = (): string => {
     const { open } = this.state;
     if(open) {
       return 'translate-y-2 rotate-_45';
     } return 'translate-x-0 rotate-0';
   };
 
-  second = () => {
+  second = (): string => {
     const { open } = this.state;
     if(open) {
       return 'translate-x-0 rotate-45';
     } return 'translate-x-0 rotate-0';
   };
 
-  third = () => {
+  third = (): string => {
     const { open } = this.state;
     if(open) {
       return 'opacity-0 transition duration-500 z-0';
     } return 'opacity-1 transition duration-500 z-30';
   };
 
-  floatMenu = () => {
+  floatMenu = (): string => {
     const { open } = this.state;
     if(open) {
       return '450px:w-4/12 sm:w-3/12 w-6/12 opacity-1 transition duration-500 z-40 trans-width';
     } return 'w-0 transition duration-500 trans-width z-0';
   };
 
-  hiddenVisible = () => {
+  hiddenVisible = (): string => {
     const { open } = this.state;
     if(open) {
       return 'flex transition-display';

@@ -10,11 +10,7 @@ interface ProjectsProps {
   history: any,
 };
 
-interface ProjectState {
-
-};
-
-export default class Projects extends React.Component<ProjectsProps, ProjectState> {
+export default class Projects extends React.Component<ProjectsProps, {}> {
   state = {
     isToggled: false,
     object: {
@@ -32,7 +28,6 @@ export default class Projects extends React.Component<ProjectsProps, ProjectStat
     const newPort: NewPort[] = portfolio.filter((port, index) => index !== 0);
     this.setState({ newPort: newPort });
   }
-
 
   render() {
     const { newPort, object, isToggled } = this.state;
