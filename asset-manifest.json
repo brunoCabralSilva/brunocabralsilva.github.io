@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.867814b8.css",
-    "main.js": "/static/js/main.29eb2caf.js",
+    "main.css": "/static/css/main.43715f9c.css",
+    "main.js": "/static/js/main.920e36e8.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -12,6 +12,7 @@
     "static/media/me2.jpg": "/static/media/me2.1f16e5fcf2ef4eb394ff.jpg",
     "static/media/fav.png": "/static/media/fav.4948e1979274070af5aa.png",
     "static/media/h4.png": "/static/media/h4.68a8bf4c3ce195a9b609.png",
+    "static/media/post-003.png": "/static/media/post-003.9caa6ffee878c22a481b.png",
     "static/media/recipes.png": "/static/media/recipes.a4f72f3675a665630d3a.png",
     "static/media/me.png": "/static/media/me.a447faf1b31f321f27e2.png",
     "static/media/heaven.jpg": "/static/media/heaven.5317da7d24c473b84363.jpg",
@@ -22,8 +23,12 @@
     "static/media/wallpaper-notebook.jpg": "/static/media/wallpaper-notebook.e219997efa973d0e44af.jpg",
     "static/media/aec.jpg": "/static/media/aec.5427a76dfa3d8f151bc0.jpg",
     "static/media/h2.png": "/static/media/h2.89a3daa39b910ed435f4.png",
+    "static/media/post-001.png": "/static/media/post-001.046c1b18126695ee7efa.png",
+    "static/media/post-002.png": "/static/media/post-002.dda577add474906a35cd.png",
+    "static/media/revelo.png": "/static/media/revelo.6f8584977c3ad816ff73.png",
     "static/media/h.png": "/static/media/h.4d3c5619e1fbb7ea388b.png",
     "static/media/redentorista.png": "/static/media/redentorista.a2ad9c1e05f4f5eb0bed.png",
+    "static/media/revelo3.png": "/static/media/revelo3.7d781cc252af12685b4c.png",
     "static/media/eter.jpg": "/static/media/eter.7dc7c55de780abc51d21.jpg",
     "static/media/nassau.jpg": "/static/media/nassau.55671cd5ff55663ee4d5.jpg",
     "static/media/uninassau.jpeg": "/static/media/uninassau.55671cd5ff55663ee4d5.jpeg",
@@ -36,11 +41,11 @@
     "static/media/orbitall.jpg": "/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
-    "main.867814b8.css.map": "/static/css/main.867814b8.css.map",
-    "main.29eb2caf.js.map": "/static/js/main.29eb2caf.js.map"
+    "main.43715f9c.css.map": "/static/css/main.43715f9c.css.map",
+    "main.920e36e8.js.map": "/static/js/main.920e36e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.867814b8.css",
-    "static/js/main.29eb2caf.js"
+    "static/css/main.43715f9c.css",
+    "static/js/main.920e36e8.js"
   ]
 }
