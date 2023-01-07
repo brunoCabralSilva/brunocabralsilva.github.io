@@ -41,6 +41,12 @@ export default class Projects extends React.Component<ProjectsProps, {}> {
         <Header
           img="me2.jpg"
         />
+        <section className="relative">
+          <p className="font-aboreto text-4xl sm:text-5xl pt-10 md:text-6xl md:pt-0 text-black w-full text-center z-50">PROJETOS</p>
+          <p className="w-2/3 sm:w-1/3 text-center mx-auto mt-4 mb-14 sm:mb-0">
+            Abaixo, é possível conhecer um pouco mais a respeito dos projetos dos quais já estive envolvido.
+          </p>
+        </section>
         <section className="pt-10 sm:pt-20 flex flex-row flex-wrap items-center w-full my-10">
           {
             newPort.map((port: NewPort) => (
@@ -98,7 +104,7 @@ export default class Projects extends React.Component<ProjectsProps, {}> {
             </motion.div>
           }
         </AnimatePresence>
-      </section >
+      </section>
     );
   }
 }
