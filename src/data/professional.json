@@ -32,7 +32,19 @@
         ],
         "dataInicio": "Out. de 2019",
         "dataConclusão": "os dias atuais",
-        "duracao": "Dois anos e oito meses",
+        "duracao": "Três anos e três meses",
         "imagem": "aec.jpg"
+    },
+    {
+        "empresa": "Revelo Community Network",
+        "cargo": "Redator",
+        "link": "https://community.revelo.com/",
+        "descricao": [
+            "O cargo consiste em criar artigos técnicos sobre temas relacionados às tecnologias React, Tailwind CSS e Node.js. Estes artigos são publicados em espanhol e em português pela Revelo, em sites que a empresa possui para ambos os públicos."
+        ],
+        "dataInicio": "Ago. de 2022",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Cinco meses",
+        "imagem": "revelo.png"
     }
 ]

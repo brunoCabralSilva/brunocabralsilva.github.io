@@ -88,7 +88,7 @@ export default class Nav extends React.Component<NavProps, NavState> {
           <div className={`w-full h-1 bg-${bgColor} mt-1 transition duration-300 ${this.third()}`} />
         </div>
         <nav className={`h-screen glassmorphism bg-glass flex flex-col items-center fixed top-0 right-0 pb-3 ${this.floatMenu()}`}>
-          <img src={require('../images/02.png')} alt="logo com nome de Bruno" className={`pl-2 pt-28 w-3/12 mb-5 ${this.hiddenVisible()}`} />
+          <img src={require('../images/02.png')} alt="logo com nome de Bruno" className={`pl-2 pt-20 w-3/12 mb-5 ${this.hiddenVisible()}`} />
           <hr className={`mt-3 mb-4 mx-2 text-black w-2/3 ${this.hiddenVisible()}`} />
           <div className={`flex-col text-lg text-center my-10 z-50 ${this.hiddenVisible()}`}>
             <Link
@@ -108,6 +108,12 @@ export default class Nav extends React.Component<NavProps, NavState> {
               className="text-black pt-4 no-underline hover:font-bold"
             >
               Projetos
+            </Link>
+            <Link
+              to="/articles"
+              className="text-black pt-4 no-underline hover:font-bold"
+            >
+              Artigos
             </Link>
             <Link
               to="/contato"

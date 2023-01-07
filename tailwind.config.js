@@ -78,7 +78,6 @@ module.exports = {
         '80vh':'80vh',
         '85vh': '85vh',
         '90vh': '90vh',
-        '85%':'85%',
         'header': '10vh',
         '30vw': '28vw',
         '50vw':'50vw',
@@ -87,7 +86,8 @@ module.exports = {
       backgroundImage: {
         'heaven': "url('../src/images/h.png')",
         'heaven2': "url('../src/images/h2.png')",
-        'heaven3': "url('../src/images/h4.png')"
+        'heaven3': "url('../src/images/h4.png')",
+        'heaven4': "url('../src/images/h3.png')"
       }
     },
   },

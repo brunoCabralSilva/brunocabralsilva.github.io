@@ -27,9 +27,14 @@
     text-align: center;
 }
 
+.text-l {
+    text-align: left;
+}
+
 .margin-b {
  margin-bottom: 2;
 }
+
 .swiper-button-prev::after {
     color: white;
     margin-left: 55px;
@@ -41,7 +46,7 @@
     margin-right: 55px;
     padding: 10px 40px;
 }
-
+/* 
 @media (max-width: 770px) {
     .swiper-button-prev::after {
         display: none;
@@ -50,4 +55,4 @@
     .swiper-button-next::after {
         display: none;
     }
-}
+} */
