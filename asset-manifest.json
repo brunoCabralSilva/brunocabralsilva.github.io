@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2f75555.css",
-    "main.js": "/static/js/main.afd62f23.js",
+    "main.css": "/static/css/main.a0820111.css",
+    "main.js": "/static/js/main.9197eb64.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -34,6 +34,7 @@
     "static/media/uninassau.jpeg": "/static/media/uninassau.55671cd5ff55663ee4d5.jpeg",
     "static/media/escritorio.jpg": "/static/media/escritorio.5fde1ed58c058438c1fa.jpg",
     "static/media/escritorio2.jpg": "/static/media/escritorio2.757b0fed3373bb7037f9.jpg",
+    "static/media/arrow-right.png": "/static/media/arrow-right.14da8b5f862a0f437b04.png",
     "static/media/nassau.png": "/static/media/nassau.fd422f6aa324fd2fdcfd.png",
     "static/media/wallet.png": "/static/media/wallet.ef456c4a8b72ef4feab2.png",
     "static/media/01.png": "/static/media/01.8e5f456f0dc8052b0184.png",
@@ -41,11 +42,11 @@
     "static/media/orbitall.jpg": "/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
-    "main.b2f75555.css.map": "/static/css/main.b2f75555.css.map",
-    "main.afd62f23.js.map": "/static/js/main.afd62f23.js.map"
+    "main.a0820111.css.map": "/static/css/main.a0820111.css.map",
+    "main.9197eb64.js.map": "/static/js/main.9197eb64.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f75555.css",
-    "static/js/main.afd62f23.js"
+    "static/css/main.a0820111.css",
+    "static/js/main.9197eb64.js"
   ]
 }
