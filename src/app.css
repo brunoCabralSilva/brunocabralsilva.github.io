@@ -47,6 +47,24 @@
     padding: 10px 40px;
 }
 
+.swiper-pagination-bullet {
+    padding: 5px;
+    border-color: white !important;
+    border-width: 2px !important;
+    border-radius:25% !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: black !important;
+    border-color: white !important;
+    border-width: 2px !important;
+  }
+
+  .swiper-pagination-clickable {
+    margin-bottom: '10px' !important;
+    padding-bottom: '10px' !important;
+  }
+
 @media (max-width: 440px) {
     
     .swiper-button-next::after {

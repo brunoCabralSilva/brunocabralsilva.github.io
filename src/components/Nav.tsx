@@ -74,7 +74,7 @@ export default class Nav extends React.Component<NavProps, NavState> {
     const { history } = this.props;
     const { bgColor } = this.state;
     return (
-      <nav className="fixed bg-heaven bg-center bg-cover w-full h-header px-3 font-aboreto text-xl z-50 flex flex-row justify-between items-center">
+      <nav className="fixed top-0 bg-heaven bg-center bg-cover w-full h-header px-3 font-aboreto text-xl z-50 flex flex-row justify-between items-center">
         <motion.img
           whileHover={{scale: 1.3}}
           src={require('../images/01.png')}
@@ -90,7 +90,7 @@ export default class Nav extends React.Component<NavProps, NavState> {
         <nav className={`h-screen glassmorphism bg-glass flex flex-col items-center fixed top-0 right-0 pb-3 ${this.floatMenu()}`}>
           <img src={require('../images/02.png')} alt="logo com nome de Bruno" className={`pl-2 pt-20 w-3/12 mb-5 ${this.hiddenVisible()}`} />
           <hr className={`mt-3 mb-4 mx-2 text-black w-2/3 ${this.hiddenVisible()}`} />
-          <div className={`flex-col text-lg text-center my-10 z-50 ${this.hiddenVisible()}`}>
+          <div className={`flex-col text-lg text-center my-2 z-50 ${this.hiddenVisible()}`}>
             <Link
               to="/"
               className="text-black no-underline hover:font-bold"
