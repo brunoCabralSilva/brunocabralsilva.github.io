@@ -46,13 +46,10 @@
     margin-right: 55px;
     padding: 10px 40px;
 }
-/* 
-@media (max-width: 770px) {
-    .swiper-button-prev::after {
-        display: none;
-    }
+
+@media (max-width: 440px) {
     
     .swiper-button-next::after {
         display: none;
     }
-} */
+}

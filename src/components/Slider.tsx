@@ -49,7 +49,14 @@ export default class Slider extends React.Component<SliderProps, {}> {
               <SwiperSlide>
                 <div className="rounded-xl flex lg:flex-row flex-col items-center relative justify-start transition-all duration-1000 pb-4 lg:pb-0 lg:mb-0 border-4 border-white hover:border-black w-full h-full"> 
                 <img src={require('../images/h3.png')} alt="" className="w-full h-full object-cover opacity-40 absolute" />
-                <img src={require(`../images/works-academy/${instituicao.imagem}`)} className="rounded-full h-60 sm:h-60 w-60 sm:w-60 object-cover lg:ml-2 mt-10 mb-3 border-8 border-white duration-1000 transition-all bg-cover z-20" alt="" />
+                <div className="rounded-full h-60 lg:h-44 w-60 lg:ml-2 mt-10 mb-3 border-8 border-white duration-1000 transition-all z-20 relative flex items-center justify-center">
+                  <img src={require('../images/arrow-right.png')} alt="arrow-left" className="animate-pulse absolute w-28 z-40 sm:hidden" />
+                  <img
+                    src={require(`../images/works-academy/${instituicao.imagem}`)}
+                    className="rounded-full w-full h-full object-cover absolute"
+                    alt=""
+                  />
+                </div>
                 <div className="text-c lg:text-left rounded-3xl px-4 py-3 z-30 lg:w-10/12 lg:mr-10">
                   {
                     type === 'academics'
@@ -107,7 +114,7 @@ export default class Slider extends React.Component<SliderProps, {}> {
                       <button
                         className="h-full w-full flex items-center relative border-2 border-black px-2 py-1 hover:text-blue-500"
                         type="button"
-                        onClick={ () => history.push('/artigos') }
+                        onClick={ () => history.push('/articles') }
                       >
                         <img src={require('../images/h3.png')} alt="" className="w-full h-full object-cover opacity-40 absolute right-0" />
                         <img src={require(`../images/works-academy/revelo3.png`)} className="rounded-full h-16 sm:h-16 w-16 sm:w-16 object-cover border-4 border-white duration-1000 transition-all bg-cover z-20" alt="" />
