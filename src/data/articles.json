@@ -1,0 +1,27 @@
+[            
+  {
+    "titulo": "Crie um carrossel no React com Swiper",
+    "image": "Crie um carrossel no React com Swiper.png",
+    "link": "https://community.revelo.com/crie-um-carrossel-no-react-com-swiper/",
+    "resume": ""
+  },
+  {
+    "titulo": "Conectando node.js e Mysql",
+    "image": "Conectando node.js e Mysql.png",
+    "link": "https://community.revelo.com/como-conectar-o-node-js-com-o-mysql/",
+    "resume": ""
+  },
+  {
+    "titulo": "Publicando projetos no github pages.png",
+    "image": "Publicando projetos no github pages.png",
+    "link": "https://community.revelo.com/tres-passos-para-publicar-projetos-react-no-github/",
+    "resume": ""
+  },
+  {
+    "titulo": "Usando redux no react",
+    "image": "Usando redux no react.png",
+    "link": "https://community.revelo.com/como-utilizar-redux-no-react/",
+    "resume": ""
+  }
+]
+            
