@@ -27,7 +27,7 @@ export default class GridPortfolio extends React.Component<GrifPortProps, {}> {
         </div>
         <motion.button
           whileHover={{ scale:1.1 }}
-          onClick={ () => history.push('/projects')}
+          // onClick={ () => history.push('/projects')}
           className="p-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 z-40">
           Portfolio completo
         </motion.button>

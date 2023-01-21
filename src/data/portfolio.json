@@ -7,14 +7,14 @@
     "image": ""
   },
   {
-    "link": "https://github.com/brunoCabralSilva/trybe-18-wallet",
+    "link": "https://github.com/brunoCabralSilva/wallet",
     "grid": "col-span-1 row-span-2 h-row-2",
     "text": "Wallet",
     "favorito": false,
     "image": "wallet.png"
   },
   {
-    "link": "https://github.com/brunoCabralSilva/trybe-20-recipes",
+    "link": "https://github.com/brunoCabralSilva/recipes",
     "grid": "col-span-1 row-span-3 h-row-3",
     "text": "Recipes",
     "favorito": true,
@@ -35,14 +35,14 @@
     "image": "guia-das-matilhas.jpg"
   },
   {
-    "link": "https://github.com/brunoCabralSilva/trybe-19-trivia",
+    "link": "https://github.com/brunoCabralSilva/trivia",
     "grid": "col-span-1 sm:row-span-3 row-span-1 sm:h-row-3 h-row-midle",
     "text": "Trivia",
     "favorito": false,
     "image": "trivia.jpg"
   },
   {
-    "link": "https://github.com/brunoCabralSilva/trybe-14-tunes",
+    "link": "https://github.com/brunoCabralSilva/tunes",
     "grid": "col-span-1 row-span-2 sm:h-row-2 h-row-midle",
     "text": "Tunes",
     "favorito": false,
