@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0820111.css",
-    "main.js": "/static/js/main.03834cf0.js",
+    "main.js": "/static/js/main.0ba0fc7c.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -33,6 +33,7 @@
     "static/media/eter.jpg": "/static/media/eter.7dc7c55de780abc51d21.jpg",
     "static/media/nassau.jpg": "/static/media/nassau.55671cd5ff55663ee4d5.jpg",
     "static/media/uninassau.jpeg": "/static/media/uninassau.55671cd5ff55663ee4d5.jpeg",
+    "static/media/Três hooks indispensáveis para componentizações.png": "/static/media/Três hooks indispensáveis para componentizações.efa82f3d67778110381c.png",
     "static/media/escritorio.jpg": "/static/media/escritorio.5fde1ed58c058438c1fa.jpg",
     "static/media/escritorio2.jpg": "/static/media/escritorio2.757b0fed3373bb7037f9.jpg",
     "static/media/arrow-right.png": "/static/media/arrow-right.14da8b5f862a0f437b04.png",
@@ -44,10 +45,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.a0820111.css.map": "/static/css/main.a0820111.css.map",
-    "main.03834cf0.js.map": "/static/js/main.03834cf0.js.map"
+    "main.0ba0fc7c.js.map": "/static/js/main.0ba0fc7c.js.map"
   },
   "entrypoints": [
     "static/css/main.a0820111.css",
-    "static/js/main.03834cf0.js"
+    "static/js/main.0ba0fc7c.js"
   ]
 }
