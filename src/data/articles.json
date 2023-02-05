@@ -1,4 +1,10 @@
-[            
+[  
+  {
+    "titulo": "Três hooks indispensáveis para componentizações",
+    "image": "Três hooks indispensáveis para componentizações.png",
+    "link": "https://community.revelo.com/react-tres-hooks-indispensaveis-para-componentizacoes/",
+    "resume": ""
+  },         
   {
     "titulo": "Crie um carrossel no React com Swiper",
     "image": "Crie um carrossel no React com Swiper.png",
