@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0820111.css",
-    "main.js": "/static/js/main.0ba0fc7c.js",
+    "main.js": "/static/js/main.8a9a1ad7.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -40,15 +40,16 @@
     "static/media/nassau.png": "/static/media/nassau.fd422f6aa324fd2fdcfd.png",
     "static/media/wallet.png": "/static/media/wallet.ef456c4a8b72ef4feab2.png",
     "static/media/01.png": "/static/media/01.8e5f456f0dc8052b0184.png",
+    "static/media/Framer Motion para transições e elementos React.png": "/static/media/Framer Motion para transições e elementos React.0019bb3b692b60496ee3.png",
     "static/media/ufcg.png": "/static/media/ufcg.ac448ad6918d33e57d70.png",
     "static/media/orbitall.jpg": "/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.a0820111.css.map": "/static/css/main.a0820111.css.map",
-    "main.0ba0fc7c.js.map": "/static/js/main.0ba0fc7c.js.map"
+    "main.8a9a1ad7.js.map": "/static/js/main.8a9a1ad7.js.map"
   },
   "entrypoints": [
     "static/css/main.a0820111.css",
-    "static/js/main.0ba0fc7c.js"
+    "static/js/main.8a9a1ad7.js"
   ]
 }
