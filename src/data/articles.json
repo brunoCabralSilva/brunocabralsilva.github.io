@@ -1,5 +1,11 @@
 [ 
   {
+    "titulo": "Gerenciamento de rotas com o React",
+    "image": "Gerenciamento de rotas com o React.png",
+    "link": "https://community.revelo.com/gerenciamento-de-rotas-com-o-react/",
+    "resume": ""
+  },
+  {
     "titulo": "Framer Motion para transições e elementos React",
     "image": "Framer Motion para transições e elementos React.png",
     "link": "https://community.revelo.com/framer-motion-para-transicoes-e-elementos-react/",
