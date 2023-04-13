@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0820111.css",
-    "main.js": "/static/js/main.e0532e62.js",
+    "main.js": "/static/js/main.4b5a51ba.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -14,6 +14,7 @@
     "static/media/h4.png": "/static/media/h4.68a8bf4c3ce195a9b609.png",
     "static/media/Usando redux no react.png": "/static/media/Usando redux no react.9caa6ffee878c22a481b.png",
     "static/media/recipes.png": "/static/media/recipes.a4f72f3675a665630d3a.png",
+    "static/media/Github Copilot: Vale a pena.png": "/static/media/Github Copilot: Vale a pena.611c01aca8308f32f06d.png",
     "static/media/me.png": "/static/media/me.a447faf1b31f321f27e2.png",
     "static/media/heaven.jpg": "/static/media/heaven.5317da7d24c473b84363.jpg",
     "static/media/Gerenciamento de rotas com o React.png": "/static/media/Gerenciamento de rotas com o React.b8584a2262b09490b2c2.png",
@@ -47,10 +48,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.a0820111.css.map": "/static/css/main.a0820111.css.map",
-    "main.e0532e62.js.map": "/static/js/main.e0532e62.js.map"
+    "main.4b5a51ba.js.map": "/static/js/main.4b5a51ba.js.map"
   },
   "entrypoints": [
     "static/css/main.a0820111.css",
-    "static/js/main.e0532e62.js"
+    "static/js/main.4b5a51ba.js"
   ]
 }
