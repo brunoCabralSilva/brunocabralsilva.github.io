@@ -1,5 +1,17 @@
 [ 
   {
+    "titulo": "Como criar um servidor com o Node.js",
+    "image": "Como criar um servidor com o Node.js.png",
+    "link": "https://community.revelo.com.br/como-criar-um-servidor-com-o-node-js/",
+    "resume": ""
+  },
+  {
+    "titulo": "Criar menu lateral com React e Tailwind",
+    "image": "Criar menu lateral com React e Tailwind.png",
+    "link": "https://community.revelo.com.br/criar-menu-lateral-com-react-e-tailwind/",
+    "resume": ""
+  },
+  {
     "titulo": "Github Copilot: Vale a pena?",
     "image": "Github Copilot: Vale a pena.png",
     "link": "https://community.revelo.com.br/github-copilot-vale-a-pena/",
