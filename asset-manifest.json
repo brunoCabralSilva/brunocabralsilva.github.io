@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0820111.css",
-    "main.js": "/static/js/main.4b5a51ba.js",
+    "main.js": "/static/js/main.90a8868f.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -27,6 +27,7 @@
     "static/media/Crie um carrossel no React com Swiper.png": "/static/media/Crie um carrossel no React com Swiper.2dda7d86b6f46c3cd095.png",
     "static/media/h2.png": "/static/media/h2.89a3daa39b910ed435f4.png",
     "static/media/Conectando node.js e Mysql.png": "/static/media/Conectando node.js e Mysql.046c1b18126695ee7efa.png",
+    "static/media/Como criar um servidor com o Node.js.png": "/static/media/Como criar um servidor com o Node.js.a12ca60b8c9f9b472d07.png",
     "static/media/Publicando projetos no github pages.png": "/static/media/Publicando projetos no github pages.dda577add474906a35cd.png",
     "static/media/revelo.png": "/static/media/revelo.6f8584977c3ad816ff73.png",
     "static/media/h.png": "/static/media/h.4d3c5619e1fbb7ea388b.png",
@@ -41,6 +42,7 @@
     "static/media/arrow-right.png": "/static/media/arrow-right.14da8b5f862a0f437b04.png",
     "static/media/nassau.png": "/static/media/nassau.fd422f6aa324fd2fdcfd.png",
     "static/media/wallet.png": "/static/media/wallet.ef456c4a8b72ef4feab2.png",
+    "static/media/Criar menu lateral com React e Tailwind.png": "/static/media/Criar menu lateral com React e Tailwind.62c063b19d4708a8956d.png",
     "static/media/01.png": "/static/media/01.8e5f456f0dc8052b0184.png",
     "static/media/Framer Motion para transições e elementos React.png": "/static/media/Framer Motion para transições e elementos React.0019bb3b692b60496ee3.png",
     "static/media/ufcg.png": "/static/media/ufcg.ac448ad6918d33e57d70.png",
@@ -48,10 +50,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.a0820111.css.map": "/static/css/main.a0820111.css.map",
-    "main.4b5a51ba.js.map": "/static/js/main.4b5a51ba.js.map"
+    "main.90a8868f.js.map": "/static/js/main.90a8868f.js.map"
   },
   "entrypoints": [
     "static/css/main.a0820111.css",
-    "static/js/main.4b5a51ba.js"
+    "static/js/main.90a8868f.js"
   ]
 }
