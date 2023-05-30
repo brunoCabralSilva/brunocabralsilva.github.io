@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a0820111.css",
-    "main.js": "/static/js/main.90a8868f.js",
+    "main.js": "/static/js/main.d6796f15.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -27,6 +27,7 @@
     "static/media/Crie um carrossel no React com Swiper.png": "/static/media/Crie um carrossel no React com Swiper.2dda7d86b6f46c3cd095.png",
     "static/media/h2.png": "/static/media/h2.89a3daa39b910ed435f4.png",
     "static/media/Conectando node.js e Mysql.png": "/static/media/Conectando node.js e Mysql.046c1b18126695ee7efa.png",
+    "static/media/Utilizando Context no React.png": "/static/media/Utilizando Context no React.75619ceae8a4e79f7420.png",
     "static/media/Como criar um servidor com o Node.js.png": "/static/media/Como criar um servidor com o Node.js.a12ca60b8c9f9b472d07.png",
     "static/media/Publicando projetos no github pages.png": "/static/media/Publicando projetos no github pages.dda577add474906a35cd.png",
     "static/media/revelo.png": "/static/media/revelo.6f8584977c3ad816ff73.png",
@@ -50,10 +51,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.a0820111.css.map": "/static/css/main.a0820111.css.map",
-    "main.90a8868f.js.map": "/static/js/main.90a8868f.js.map"
+    "main.d6796f15.js.map": "/static/js/main.d6796f15.js.map"
   },
   "entrypoints": [
     "static/css/main.a0820111.css",
-    "static/js/main.90a8868f.js"
+    "static/js/main.d6796f15.js"
   ]
 }
