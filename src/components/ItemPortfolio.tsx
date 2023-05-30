@@ -64,7 +64,7 @@ export default class ItemPortFolio extends React.Component<ItemPortProps, { }> {
         whileHover={{ scale: 0.98 }}
         href={link}
         target="_blank"
-        className={`relative ${this.returnGridDescriptions()} relative flex items-end" `}
+        className={`${this.returnGridDescriptions()} relative flex items-end" `}
         rel="noreferrer"
       >
         <div className="absolute h-full w-full bg-white opacity-10 hover:opacity-0 z-20 duration-500 transition" />

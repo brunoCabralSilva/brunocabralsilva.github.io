@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiJavascript, DiNodejsSmall } from "react-icons/di";
 import { FaDocker } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiMongodb, SiTypescript } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiMongodb, SiTypescript, SiFirebase, SiNestjs, SiSequelize, SiSass } from "react-icons/si";
 import { GrMysql, GrReactjs } from "react-icons/gr";
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -26,7 +26,7 @@ export default class TechItem extends React.Component<TechProps, {}> {
       case 'React':
         return <GrReactjs className="mt-3 sm:mt-0 text-7xl mx-3 mb-2 md:mx-3" />
       case 'Redux':
-        return <SiRedux className="mt-3 sm:mt-0 text-7xl mx-3 md:mx-3 mb-2" />
+        return <SiRedux className="mt-3 sm:mt-0 text-6xl mx-3 md:mx-3 mb-2" />
       case 'Motion':
         return (
           <img 
@@ -44,6 +44,14 @@ export default class TechItem extends React.Component<TechProps, {}> {
         return <DiNodejsSmall className="mt-3 sm:mt-0 text-7xl mx-3 md:mx-3" />
       case 'MongoDB':
         return <SiMongodb className="text-7xl mx-3 md:mx-3 mb-2" />
+      case "Firebase":
+        return <SiFirebase className="text-7xl mx-3 md:mx-3 mb-2" />
+      case "NestJS":
+        return <SiNestjs className="text-7xl mx-3 md:mx-3 mb-2" />
+      case "Sequelize":
+        return <SiSequelize className="text-7xl mx-3 md:mx-3 mb-2" />
+      case "Sass":
+        return <SiSass className="text-7xl mx-3 md:mx-3 mb-2" />
       default:
         return null;
     }
