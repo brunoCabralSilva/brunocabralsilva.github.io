@@ -9,6 +9,7 @@ interface GrifPortProps {
 
 export default class GridPortfolio extends React.Component<GrifPortProps, {}> {
   render() {
+    const { history } = this.props;
     return(
       <section className="w-full flex flex-col items-center justify-center relative pt-14">
         <p className="mt-8 sm:mt-14 mb-2 w-10/12 md:text-left text-c pb-3 font-aboreto md:mx-10 text-4xl sm:text-5xl md:text-6xl z-30">Portfolio</p>
@@ -26,7 +27,7 @@ export default class GridPortfolio extends React.Component<GrifPortProps, {}> {
         </div>
         <motion.button
           whileHover={{ scale:1.1 }}
-          // onClick={ () => history.push('/projects')}
+          onClick={ () => history.push('/projects')}
           className="p-3 border-2 font-normal bg-white border-h-color hover:border-gray-500 hover:font-bold transition duration-1000 z-40">
           Portfolio completo
         </motion.button>
