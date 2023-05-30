@@ -5,6 +5,7 @@ import { MdFastfood, MdCatchingPokemon } from "react-icons/md";
 import { IoWalletOutline } from "react-icons/io5";
 import { ImQuestion } from "react-icons/im";
 import { motion } from 'framer-motion';
+import { TbTruckDelivery } from 'react-icons/tb';
 
 interface ItemPortProps {
   link: string,
@@ -25,8 +26,8 @@ export default class ItemPortFolio extends React.Component<ItemPortProps, { }> {
       return <MdCatchingPokemon className={classes} />;
       case 'Recipes':
       return <MdFastfood className={classes} />;
-      case 'Trivia':
-      return <ImQuestion className={classes} />;
+      case 'Delivery App':
+      return <TbTruckDelivery className={classes} />;
       case 'Tunes':
       return <FaHeadphonesAlt className={classes} />;
       case 'Github':
