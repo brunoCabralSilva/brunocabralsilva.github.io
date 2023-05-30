@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.342b20cd.css",
-    "main.js": "/static/js/main.ddbe0f3b.js",
+    "main.js": "/static/js/main.681fca13.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -51,10 +51,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.342b20cd.css.map": "/static/css/main.342b20cd.css.map",
-    "main.ddbe0f3b.js.map": "/static/js/main.ddbe0f3b.js.map"
+    "main.681fca13.js.map": "/static/js/main.681fca13.js.map"
   },
   "entrypoints": [
     "static/css/main.342b20cd.css",
-    "static/js/main.ddbe0f3b.js"
+    "static/js/main.681fca13.js"
   ]
 }
