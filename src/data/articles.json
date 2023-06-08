@@ -1,5 +1,11 @@
 [ 
   {
+    "titulo": "Utilizando rotas no Node.js",
+    "image": "Utilizando rotas no Node.js.png",
+    "link": "https://community.revelo.com.br/utilizando-rotas-no-node-js/",
+    "resume": ""
+  },
+  {
     "titulo": "Utilizando Context no React",
     "image": "Utilizando Context no React.png",
     "link": "https://community.revelo.com.br/utilizando-context-no-react/",
