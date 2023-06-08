@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.342b20cd.css",
-    "main.js": "/static/js/main.681fca13.js",
+    "main.js": "/static/js/main.c077eafd.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -13,6 +13,7 @@
     "static/media/fav.png": "/static/media/fav.4948e1979274070af5aa.png",
     "static/media/h4.png": "/static/media/h4.68a8bf4c3ce195a9b609.png",
     "static/media/Usando redux no react.png": "/static/media/Usando redux no react.9caa6ffee878c22a481b.png",
+    "static/media/Utilizando rotas no Node.js.png": "/static/media/Utilizando rotas no Node.js.215f7512eed0e23d0934.png",
     "static/media/recipes.png": "/static/media/recipes.a4f72f3675a665630d3a.png",
     "static/media/Github Copilot: Vale a pena.png": "/static/media/Github Copilot: Vale a pena.611c01aca8308f32f06d.png",
     "static/media/me.png": "/static/media/me.a447faf1b31f321f27e2.png",
@@ -51,10 +52,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.342b20cd.css.map": "/static/css/main.342b20cd.css.map",
-    "main.681fca13.js.map": "/static/js/main.681fca13.js.map"
+    "main.c077eafd.js.map": "/static/js/main.c077eafd.js.map"
   },
   "entrypoints": [
     "static/css/main.342b20cd.css",
-    "static/js/main.681fca13.js"
+    "static/js/main.c077eafd.js"
   ]
 }
