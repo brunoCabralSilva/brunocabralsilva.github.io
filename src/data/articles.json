@@ -1,5 +1,11 @@
 [ 
   {
+    "titulo": "Gráficos com React Google Charts",
+    "image": "Gráficos com React Google Charts.png",
+    "link": "https://community.revelo.com.br/graficos-com-react-google-charts/",
+    "resume": ""
+  },
+  {
     "titulo": "Utilizando rotas no Node.js",
     "image": "Utilizando rotas no Node.js.png",
     "link": "https://community.revelo.com.br/utilizando-rotas-no-node-js/",
