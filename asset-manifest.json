@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.342b20cd.css",
-    "main.js": "/static/js/main.db60575a.js",
+    "main.js": "/static/js/main.ba8d0a10.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -42,6 +42,7 @@
     "static/media/Três hooks indispensáveis para componentizações.png": "/static/media/Três hooks indispensáveis para componentizações.efa82f3d67778110381c.png",
     "static/media/escritorio.jpg": "/static/media/escritorio.5fde1ed58c058438c1fa.jpg",
     "static/media/escritorio2.jpg": "/static/media/escritorio2.757b0fed3373bb7037f9.jpg",
+    "static/media/Realizando um CRUD no MySQL com o Node.js.png": "/static/media/Realizando um CRUD no MySQL com o Node.js.c87ad45565a015a76d7d.png",
     "static/media/arrow-right.png": "/static/media/arrow-right.14da8b5f862a0f437b04.png",
     "static/media/nassau.png": "/static/media/nassau.fd422f6aa324fd2fdcfd.png",
     "static/media/wallet.png": "/static/media/wallet.ef456c4a8b72ef4feab2.png",
@@ -53,10 +54,10 @@
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.342b20cd.css.map": "/static/css/main.342b20cd.css.map",
-    "main.db60575a.js.map": "/static/js/main.db60575a.js.map"
+    "main.ba8d0a10.js.map": "/static/js/main.ba8d0a10.js.map"
   },
   "entrypoints": [
     "static/css/main.342b20cd.css",
-    "static/js/main.db60575a.js"
+    "static/js/main.ba8d0a10.js"
   ]
 }
