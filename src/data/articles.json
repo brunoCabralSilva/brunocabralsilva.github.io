@@ -1,5 +1,11 @@
 [ 
   {
+    "titulo": "Realizando um CRUD no MySQL com o Node.js",
+    "image": "Realizando um CRUD no MySQL com o Node.js.png",
+    "link": "https://community.revelo.com.br/realizando-un-crud-no-mysql-com-o-node-js/",
+    "resume": ""
+  },
+  {
     "titulo": "Gráficos com React Google Charts",
     "image": "Gráficos com React Google Charts.png",
     "link": "https://community.revelo.com.br/graficos-com-react-google-charts/",
