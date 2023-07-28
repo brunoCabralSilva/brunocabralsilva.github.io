@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.342b20cd.css",
-    "main.js": "/static/js/main.ba8d0a10.js",
+    "main.js": "/static/js/main.05e5e588.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -30,6 +30,7 @@
     "static/media/Conectando node.js e Mysql.png": "/static/media/Conectando node.js e Mysql.046c1b18126695ee7efa.png",
     "static/media/Utilizando Context no React.png": "/static/media/Utilizando Context no React.75619ceae8a4e79f7420.png",
     "static/media/Como criar um servidor com o Node.js.png": "/static/media/Como criar um servidor com o Node.js.a12ca60b8c9f9b472d07.png",
+    "static/media/Carrossel usando React e Tailwind.png": "/static/media/Carrossel usando React e Tailwind.078ed16fd2621953cc3f.png",
     "static/media/Publicando projetos no github pages.png": "/static/media/Publicando projetos no github pages.dda577add474906a35cd.png",
     "static/media/revelo.png": "/static/media/revelo.6f8584977c3ad816ff73.png",
     "static/media/Gráficos com React Google Charts.png": "/static/media/Gráficos com React Google Charts.4565c2725716cb686f5f.png",
@@ -50,14 +51,15 @@
     "static/media/01.png": "/static/media/01.8e5f456f0dc8052b0184.png",
     "static/media/Framer Motion para transições e elementos React.png": "/static/media/Framer Motion para transições e elementos React.0019bb3b692b60496ee3.png",
     "static/media/ufcg.png": "/static/media/ufcg.ac448ad6918d33e57d70.png",
+    "static/media/Conectando Front e o Back com o Axios.png": "/static/media/Conectando Front e o Back com o Axios.bc702a469bf4ecee87cf.png",
     "static/media/orbitall.jpg": "/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.342b20cd.css.map": "/static/css/main.342b20cd.css.map",
-    "main.ba8d0a10.js.map": "/static/js/main.ba8d0a10.js.map"
+    "main.05e5e588.js.map": "/static/js/main.05e5e588.js.map"
   },
   "entrypoints": [
     "static/css/main.342b20cd.css",
-    "static/js/main.ba8d0a10.js"
+    "static/js/main.05e5e588.js"
   ]
 }
