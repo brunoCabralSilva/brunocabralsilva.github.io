@@ -1,5 +1,17 @@
 [ 
   {
+    "titulo": "Como utilizar o Flexbox com Tailwind CSS - Parte 1",
+    "image": "Como utilizar o Flexbox com Tailwind CSS - Parte 1.png",
+    "link": "https://community.revelo.com.br/como-utilizar-o-flexbox-com-tailwind-css-parte-1/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando Hover PopUp e Tooltip com Tailwind CSS",
+    "image": "Utilizando Hover PopUp e Tooltip com Tailwind CSS.png",
+    "link": "https://community.revelo.com.br/utilizando-hover-popup-e-tooltip-com-tailwind-css/",
+    "resume": ""
+  },
+  {
     "titulo": "Conectando Front e o Back com o Axios",
     "image": "Conectando Front e o Back com o Axios.png",
     "link": "https://community.revelo.com.br/conectando-front-e-o-back-com-o-axios/",
