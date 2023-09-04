@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.342b20cd.css",
-    "main.js": "/static/js/main.05e5e588.js",
+    "main.css": "/static/css/main.3ca52f54.css",
+    "main.js": "/static/js/main.db1727fd.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -32,6 +32,7 @@
     "static/media/Como criar um servidor com o Node.js.png": "/static/media/Como criar um servidor com o Node.js.a12ca60b8c9f9b472d07.png",
     "static/media/Carrossel usando React e Tailwind.png": "/static/media/Carrossel usando React e Tailwind.078ed16fd2621953cc3f.png",
     "static/media/Publicando projetos no github pages.png": "/static/media/Publicando projetos no github pages.dda577add474906a35cd.png",
+    "static/media/Utilizando Hover PopUp e Tooltip com Tailwind CSS.png": "/static/media/Utilizando Hover PopUp e Tooltip com Tailwind CSS.78a986e54a7acb8df62c.png",
     "static/media/revelo.png": "/static/media/revelo.6f8584977c3ad816ff73.png",
     "static/media/Gráficos com React Google Charts.png": "/static/media/Gráficos com React Google Charts.4565c2725716cb686f5f.png",
     "static/media/h.png": "/static/media/h.4d3c5619e1fbb7ea388b.png",
@@ -43,6 +44,7 @@
     "static/media/Três hooks indispensáveis para componentizações.png": "/static/media/Três hooks indispensáveis para componentizações.efa82f3d67778110381c.png",
     "static/media/escritorio.jpg": "/static/media/escritorio.5fde1ed58c058438c1fa.jpg",
     "static/media/escritorio2.jpg": "/static/media/escritorio2.757b0fed3373bb7037f9.jpg",
+    "static/media/Como utilizar o Flexbox com Tailwind CSS - Parte 1.png": "/static/media/Como utilizar o Flexbox com Tailwind CSS - Parte 1.7f1ce75be18380d8b1fb.png",
     "static/media/Realizando um CRUD no MySQL com o Node.js.png": "/static/media/Realizando um CRUD no MySQL com o Node.js.c87ad45565a015a76d7d.png",
     "static/media/arrow-right.png": "/static/media/arrow-right.14da8b5f862a0f437b04.png",
     "static/media/nassau.png": "/static/media/nassau.fd422f6aa324fd2fdcfd.png",
@@ -55,11 +57,11 @@
     "static/media/orbitall.jpg": "/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
-    "main.342b20cd.css.map": "/static/css/main.342b20cd.css.map",
-    "main.05e5e588.js.map": "/static/js/main.05e5e588.js.map"
+    "main.3ca52f54.css.map": "/static/css/main.3ca52f54.css.map",
+    "main.db1727fd.js.map": "/static/js/main.db1727fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.342b20cd.css",
-    "static/js/main.05e5e588.js"
+    "static/css/main.3ca52f54.css",
+    "static/js/main.db1727fd.js"
   ]
 }
