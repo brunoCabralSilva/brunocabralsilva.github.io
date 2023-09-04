@@ -3,7 +3,6 @@ import { ImGithub } from "react-icons/im";
 import { FaHeadphonesAlt, FaWolfPackBattalion } from "react-icons/fa";
 import { MdFastfood, MdCatchingPokemon } from "react-icons/md";
 import { IoWalletOutline } from "react-icons/io5";
-import { ImQuestion } from "react-icons/im";
 import { motion } from 'framer-motion';
 import { TbTruckDelivery } from 'react-icons/tb';
 
