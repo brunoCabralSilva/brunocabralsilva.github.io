@@ -1,5 +1,17 @@
 [ 
   {
+    "titulo": "Como utilizar o Grid Layout com Tailwind CSS",
+    "image": "Como utilizar o Grid Layout com Tailwind CSS.png",
+    "link": "https://community.revelo.com.br/como-utilizar-o-grid-layout-com-tailwind-css/",
+    "resume": ""
+  },
+  {
+    "titulo": "Como utilizar o Flexbox com Tailwind CSS - Parte 2",
+    "image": "Como utilizar o Flexbox com Tailwind CSS - Parte 2.png",
+    "link": "https://community.revelo.com.br/como-utilizar-o-flexbox-com-tailwind-css-parte-2/",
+    "resume": ""
+  },
+  {
     "titulo": "Como utilizar o Flexbox com Tailwind CSS - Parte 1",
     "image": "Como utilizar o Flexbox com Tailwind CSS - Parte 1.png",
     "link": "https://community.revelo.com.br/como-utilizar-o-flexbox-com-tailwind-css-parte-1/",
