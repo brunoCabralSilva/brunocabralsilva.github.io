@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ca52f54.css",
-    "main.js": "/static/js/main.db1727fd.js",
+    "main.js": "/static/js/main.0859f7b7.js",
     "static/media/pokedex.png": "/static/media/pokedex.e1144529d0fd3456923a.png",
     "static/media/trivia.jpg": "/static/media/trivia.c9c1d263ae1bdecb007f.jpg",
     "static/media/ufcg.jpg": "/static/media/ufcg.45a1584169ec009f4a62.jpg",
@@ -44,6 +44,7 @@
     "static/media/Três hooks indispensáveis para componentizações.png": "/static/media/Três hooks indispensáveis para componentizações.efa82f3d67778110381c.png",
     "static/media/escritorio.jpg": "/static/media/escritorio.5fde1ed58c058438c1fa.jpg",
     "static/media/escritorio2.jpg": "/static/media/escritorio2.757b0fed3373bb7037f9.jpg",
+    "static/media/Como utilizar o Flexbox com Tailwind CSS - Parte 2.png": "/static/media/Como utilizar o Flexbox com Tailwind CSS - Parte 2.37d20ff0943f18b2d046.png",
     "static/media/Como utilizar o Flexbox com Tailwind CSS - Parte 1.png": "/static/media/Como utilizar o Flexbox com Tailwind CSS - Parte 1.7f1ce75be18380d8b1fb.png",
     "static/media/Realizando um CRUD no MySQL com o Node.js.png": "/static/media/Realizando um CRUD no MySQL com o Node.js.c87ad45565a015a76d7d.png",
     "static/media/arrow-right.png": "/static/media/arrow-right.14da8b5f862a0f437b04.png",
@@ -53,15 +54,16 @@
     "static/media/01.png": "/static/media/01.8e5f456f0dc8052b0184.png",
     "static/media/Framer Motion para transições e elementos React.png": "/static/media/Framer Motion para transições e elementos React.0019bb3b692b60496ee3.png",
     "static/media/ufcg.png": "/static/media/ufcg.ac448ad6918d33e57d70.png",
+    "static/media/Como utilizar o Grid Layout com Tailwind CSS.png": "/static/media/Como utilizar o Grid Layout com Tailwind CSS.bba2768a1c7cf1c1d3a4.png",
     "static/media/Conectando Front e o Back com o Axios.png": "/static/media/Conectando Front e o Back com o Axios.bc702a469bf4ecee87cf.png",
     "static/media/orbitall.jpg": "/static/media/orbitall.e9c08271d72deb8f9361.jpg",
     "static/media/02.png": "/static/media/02.f4fa95dd669864b591b2.png",
     "index.html": "/index.html",
     "main.3ca52f54.css.map": "/static/css/main.3ca52f54.css.map",
-    "main.db1727fd.js.map": "/static/js/main.db1727fd.js.map"
+    "main.0859f7b7.js.map": "/static/js/main.0859f7b7.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca52f54.css",
-    "static/js/main.db1727fd.js"
+    "static/js/main.0859f7b7.js"
   ]
 }
