@@ -14,11 +14,11 @@
     "image": "wallet.png"
   },
   {
-    "link": "https://brunocabralsilva.github.io/guiadasmatilhas",
+    "link": "https://meujeitogeek.vercel.app/",
     "grid": "col-span-1 row-span-2 h-row-2",
-    "text": "Guia das Matilhas",
+    "text": "Meu Jeito Geek",
     "favorito": true,
-    "image": "guia-das-matilhas.jpg"
+    "image": ""
   },
   {
     "link": "https://brunocabralsilva.github.io/recipes",
@@ -42,9 +42,9 @@
     "image": ""
   },
   {
-    "link": "https://meujeitogeek.vercel.app/",
+    "link": "https://brunocabralsilva.github.io/tunes",
     "grid": "",
-    "text": "Meu Jeito Geek",
+    "text": "Tunes",
     "favorito": true,
     "image": ""
   },
@@ -56,11 +56,11 @@
     "image": ""
   },
   {
-    "link": "https://brunocabralsilva.github.io/tunes",
+    "link": "https://brunocabralsilva.github.io/guiadasmatilhas",
     "grid": "col-span-1 row-span-2 sm:h-row-2 h-row-midle",
-    "text": "Tunes",
+    "text": "Guia das Matilhas",
     "favorito": true,
-    "image": "tunes.jpg"
+    "image": ""
   },
   {
     "link": "https://github.com/brunoCabralSilva/trivia",
