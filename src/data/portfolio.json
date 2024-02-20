@@ -10,39 +10,53 @@
     "link": "https://github.com/brunoCabralSilva/wallet",
     "grid": "col-span-1 row-span-2 h-row-2",
     "text": "Wallet",
-    "favorito": true,
+    "favorito": false,
     "image": "wallet.png"
   },
   {
-    "link": "https://github.com/brunoCabralSilva/recipes",
+    "link": "https://brunocabralsilva.github.io/guiadasmatilhas",
+    "grid": "col-span-1 row-span-2 h-row-2",
+    "text": "Guia das Matilhas",
+    "favorito": true,
+    "image": "guia-das-matilhas.jpg"
+  },
+  {
+    "link": "https://brunocabralsilva.github.io/recipes",
     "grid": "col-span-1 row-span-3 h-row-3",
     "text": "Recipes",
     "favorito": true,
     "image": "recipes.png"
   },
   {
-    "link": "https://github.com/brunoCabralSilva/pokedex-react",
+    "link": "https://brunocabralsilva.github.io/pokedex-react",
     "grid": "col-span-1 row-span-2 h-row-2",
     "text": "Pokedex",
     "favorito": true,
     "image": "pokedex.png"
   },
   {
-    "link": "https://github.com/brunoCabralSilva/guiadasmatilhas",
+    "link": "https://segredosdafuria.vercel.app/",
     "grid": "col-span-1 row-span-3 sm:h-row-3 h-row-3-2",
-    "text": "Guia das Matilhas",
+    "text": "Segredos da Fúria",
     "favorito": true,
-    "image": "guia-das-matilhas.jpg"
+    "image": ""
+  },
+  {
+    "link": "https://meujeitogeek.vercel.app/",
+    "grid": "",
+    "text": "Meu Jeito Geek",
+    "favorito": true,
+    "image": ""
   },
   {
     "link": "https://github.com/brunoCabralSilva/delivery-app",
     "grid": "",
     "text": "Delivery App",
-    "favorito": true,
+    "favorito": false,
     "image": ""
   },
   {
-    "link": "https://github.com/brunoCabralSilva/tunes",
+    "link": "https://brunocabralsilva.github.io/tunes",
     "grid": "col-span-1 row-span-2 sm:h-row-2 h-row-midle",
     "text": "Tunes",
     "favorito": true,

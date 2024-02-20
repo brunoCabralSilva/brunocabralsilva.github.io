@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImGithub } from "react-icons/im";
-import { FaHeadphonesAlt, FaWolfPackBattalion } from "react-icons/fa";
+import { FaHeadphonesAlt, FaMoon, FaTshirt, FaWolfPackBattalion } from "react-icons/fa";
 import { MdFastfood, MdCatchingPokemon } from "react-icons/md";
 import { IoWalletOutline } from "react-icons/io5";
 import { motion } from 'framer-motion';
@@ -19,14 +19,16 @@ export default class ItemPortFolio extends React.Component<ItemPortProps, { }> {
     switch(text) {
       case 'Wallet':
       return <IoWalletOutline className={classes} />;
+      case 'Segredos da Fúria':
+      return <FaMoon className={classes} />
       case 'Guia das Matilhas':
       return <FaWolfPackBattalion className={classes} />;
       case 'Pokedex':
       return <MdCatchingPokemon className={classes} />;
       case 'Recipes':
       return <MdFastfood className={classes} />;
-      case 'Delivery App':
-      return <TbTruckDelivery className={classes} />;
+      case 'Meu Jeito Geek':
+      return <FaTshirt className={classes} />;
       case 'Tunes':
       return <FaHeadphonesAlt className={classes} />;
       case 'Github':
