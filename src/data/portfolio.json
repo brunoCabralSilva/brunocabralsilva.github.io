@@ -1,0 +1,303 @@
+[
+  {
+    "link": "https://github.com/brunoCabralSilva",
+    "grid": "col-span-1 row-span-3 h-row-3",
+    "text": "Github",
+    "favorito": true,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/wallet",
+    "grid": "col-span-1 row-span-2 h-row-2",
+    "text": "Wallet",
+    "favorito": false,
+    "image": "wallet.png"
+  },
+  {
+    "link": "https://meujeitogeek.vercel.app/",
+    "grid": "col-span-1 row-span-2 h-row-2",
+    "text": "Meu Jeito Geek",
+    "favorito": true,
+    "image": ""
+  },
+  {
+    "link": "https://brunocabralsilva.github.io/recipes",
+    "grid": "col-span-1 row-span-3 h-row-3",
+    "text": "Recipes",
+    "favorito": true,
+    "image": "recipes.png"
+  },
+  {
+    "link": "https://brunocabralsilva.github.io/pokedex-react",
+    "grid": "col-span-1 row-span-2 h-row-2",
+    "text": "Pokedex",
+    "favorito": true,
+    "image": "pokedex.png"
+  },
+  {
+    "link": "https://segredosdafuria.vercel.app/",
+    "grid": "col-span-1 row-span-3 sm:h-row-3 h-row-3-2",
+    "text": "Segredos da Fúria",
+    "favorito": true,
+    "image": ""
+  },
+  {
+    "link": "https://brunocabralsilva.github.io/tunes",
+    "grid": "",
+    "text": "Tunes",
+    "favorito": true,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/delivery-app",
+    "grid": "",
+    "text": "Delivery App",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://brunocabralsilva.github.io/guiadasmatilhas",
+    "grid": "col-span-1 row-span-2 sm:h-row-2 h-row-midle",
+    "text": "Guia das Matilhas",
+    "favorito": true,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/trivia",
+    "grid": "col-span-1 sm:row-span-3 row-span-1 sm:h-row-3 h-row-midle",
+    "text": "Trivia",
+    "favorito": false,
+    "image": "trivia.jpg"
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/zoo-functions-nest",
+    "grid": "",
+    "text": "Zoo-functions with NestJS",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/dungeons-characters-guide",
+    "grid": "",
+    "text": "Dungeons Characters Guide",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/vehicles-mercado-livre",
+    "grid": "",
+    "text": "Vehicles Mercado Livre",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/employee-admin",
+    "grid": "",
+    "text": "Employee Admin",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/scrape-revelo-community-brasil",
+    "grid": "",
+    "text": "Scrape Revelo Community BR",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/border-tailwind",
+    "grid": "",
+    "text": "Border Tailwind",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/solar-system",
+    "grid": "",
+    "text": "Solar System",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/tryunfo",
+    "grid": "",
+    "text": "Tryunfo",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/online-store",
+    "grid": "",
+    "text": "Online Store",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/cthulhu-mythos",
+    "grid": "",
+    "text": "Cthulhu Mythos",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/car-shop",
+    "grid": "",
+    "text": "Car Shop",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/mongodb-commerce",
+    "grid": "",
+    "text": "MongoDB Commerce",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/store-manager",
+    "grid": "",
+    "text": "Store Manager",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/talker-manager",
+    "grid": "",
+    "text": "Talker Manager",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/docker-todo-list",
+    "grid": "",
+    "text": "Docker To do List",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/starwars-planets-search",
+    "grid": "",
+    "text": "Star Wars Planet Search",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/zoo-functions",
+    "grid": "",
+    "text": "Zoo Functions",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/grid-tailwind",
+    "grid": "",
+    "text": "Grid Tailwind",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/trybe-futebol-clube",
+    "grid": "",
+    "text": "Trybe Futebol Clube",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/flexbox-tailwind",
+    "grid": "",
+    "text": "FlexBox Tailwind",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/trybers-and-dragons",
+    "grid": "",
+    "text": "Trybers and Dragons",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/actors-adm",
+    "grid": "",
+    "text": "Actors Adm",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/Trybesmith",
+    "grid": "",
+    "text": "Trybesmith",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/CRUD-node-mysql",
+    "grid": "",
+    "text": "CRUD Node Mysql",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/blogs-api",
+    "grid": "",
+    "text": "Blogs API",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/carousel-react-tailwind",
+    "grid": "",
+    "text": "Carousel React Tailwind",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/react-graphics",
+    "grid": "",
+    "text": "React Graphics",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/menu",
+    "grid": "",
+    "text": "Menu",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/context-project",
+    "grid": "",
+    "text": "Context Project",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/Transitions-with-framer-motion",
+    "grid": "",
+    "text": "Transitions With Framer Motion",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/comecando-node.js",
+    "grid": "",
+    "text": "Começando Node",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/reduxBasico",
+    "grid": "",
+    "text": "Redux Básico",
+    "favorito": false,
+    "image": ""
+  },
+  {
+    "link": "https://github.com/brunoCabralSilva/trybewarts",
+    "grid": "",
+    "text": "TrybeWarts",
+    "favorito": false,
+    "image": ""
+  }
+]

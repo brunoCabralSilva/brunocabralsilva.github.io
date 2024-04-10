@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glassmorphism {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.transition-text {
+    transition: font-size linear 1s;
+}
+
+.transition-weight {
+    transition: font-weight linear 1s;
+}
+
+.trans-width {
+    transition: width linear 0.2s;
+}
+
+.transition-display {
+    transition: display linear 0.2s;
+}
+
+.text-c {
+    text-align: center;
+}
+
+.text-l {
+    text-align: left;
+}
+
+.margin-b {
+ margin-bottom: 2;
+}
+
+.swiper-button-prev::after {
+    color: white;
+    margin-left: 55px;
+    padding: 10px 20px;
+}
+
+.swiper-button-next::after {
+    color: white;
+    margin-right: 55px;
+    padding: 10px 40px;
+}
+
+.swiper-pagination-bullet {
+    padding: 5px;
+    border-color: white !important;
+    border-width: 2px !important;
+    border-radius:25% !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: black !important;
+    border-color: white !important;
+    border-width: 2px !important;
+  }
+
+  .swiper-pagination-clickable {
+    margin-bottom: '10px' !important;
+    padding-bottom: '10px' !important;
+  }
+
+@media (max-width: 440px) {
+    
+    .swiper-button-next::after {
+        display: none;
+    }
+}

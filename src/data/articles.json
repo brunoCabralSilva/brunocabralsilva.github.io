@@ -1,0 +1,159 @@
+[ 
+  {
+    "titulo": "Utilizando Bordas e Contornos com Tailwind",
+    "image": "Utilizando Bordas e Contornos com Tailwind.png",
+    "link": "https://community.revelo.com.br/utilizando-bordas-e-contornos-com-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando transformações no Tailwind",
+    "image": "Utilizando transformações no Tailwind.png",
+    "link": "https://community.revelo.com.br/utilizando-transformacoes-no-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando Transições e Animações com o Tailwind",
+    "image": "Utilizando Transições e Animações com o Tailwind.png",
+    "link": "https://community.revelo.com.br/utilizando-transicoes-e-animacoes-com-o-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Explorando Backgrounds com Tailwind - Parte 2",
+    "image": "Explorando Backgrounds com Tailwind - Parte 2.png",
+    "link": "https://community.revelo.com.br/explorando-backgrounds-com-tailwind-parte-2/",
+    "resume": ""
+  },
+  {
+    "titulo": "Explorando Backgrounds com Tailwind - Parte 1",
+    "image": "Explorando Backgrounds com Tailwind - Parte 1.png",
+    "link": "https://community.revelo.com.br/explorando-backgrounds-com-tailwind-parte-1/",
+    "resume": ""
+  },
+  {
+    "titulo": "Espaçamentos e Tamanhos com Tailwind",
+    "image": "Espaçamentos e Tamanhos com Tailwind.png",
+    "link": "https://community.revelo.com.br/espacamentos-e-tamanhos-com-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Como utilizar o Grid Layout com Tailwind CSS",
+    "image": "Como utilizar o Grid Layout com Tailwind CSS.png",
+    "link": "https://community.revelo.com.br/como-utilizar-o-grid-layout-com-tailwind-css/",
+    "resume": ""
+  },
+  {
+    "titulo": "Como utilizar o Flexbox com Tailwind CSS - Parte 2",
+    "image": "Como utilizar o Flexbox com Tailwind CSS - Parte 2.png",
+    "link": "https://community.revelo.com.br/como-utilizar-o-flexbox-com-tailwind-css-parte-2/",
+    "resume": ""
+  },
+  {
+    "titulo": "Como utilizar o Flexbox com Tailwind CSS - Parte 1",
+    "image": "Como utilizar o Flexbox com Tailwind CSS - Parte 1.png",
+    "link": "https://community.revelo.com.br/como-utilizar-o-flexbox-com-tailwind-css-parte-1/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando Hover PopUp e Tooltip com Tailwind CSS",
+    "image": "Utilizando Hover PopUp e Tooltip com Tailwind CSS.png",
+    "link": "https://community.revelo.com.br/utilizando-hover-popup-e-tooltip-com-tailwind-css/",
+    "resume": ""
+  },
+  {
+    "titulo": "Conectando Front e o Back com o Axios",
+    "image": "Conectando Front e o Back com o Axios.png",
+    "link": "https://community.revelo.com.br/conectando-front-e-o-back-com-o-axios/",
+    "resume": ""
+  },
+  {
+    "titulo": "Carrossel usando React e Tailwind",
+    "image": "Carrossel usando React e Tailwind.png",
+    "link": "https://community.revelo.com.br/carrossel-usando-react-e-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Realizando um CRUD no MySQL com o Node.js",
+    "image": "Realizando um CRUD no MySQL com o Node.js.png",
+    "link": "https://community.revelo.com.br/realizando-un-crud-no-mysql-com-o-node-js/",
+    "resume": ""
+  },
+  {
+    "titulo": "Gráficos com React Google Charts",
+    "image": "Gráficos com React Google Charts.png",
+    "link": "https://community.revelo.com.br/graficos-com-react-google-charts/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando rotas no Node.js",
+    "image": "Utilizando rotas no Node.js.png",
+    "link": "https://community.revelo.com.br/utilizando-rotas-no-node-js/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando Context no React",
+    "image": "Utilizando Context no React.png",
+    "link": "https://community.revelo.com.br/utilizando-context-no-react/",
+    "resume": ""
+  },
+  {
+    "titulo": "Como criar um servidor com o Node.js",
+    "image": "Como criar um servidor com o Node.js.png",
+    "link": "https://community.revelo.com.br/como-criar-um-servidor-com-o-node-js/",
+    "resume": ""
+  },
+  {
+    "titulo": "Criar menu lateral com React e Tailwind",
+    "image": "Criar menu lateral com React e Tailwind.png",
+    "link": "https://community.revelo.com.br/criar-menu-lateral-com-react-e-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Github Copilot: Vale a pena?",
+    "image": "Github Copilot Vale a pena.png",
+    "link": "https://community.revelo.com.br/github-copilot-vale-a-pena/",
+    "resume": ""
+  },
+  {
+    "titulo": "Gerenciamento de rotas com o React",
+    "image": "Gerenciamento de rotas com o React.png",
+    "link": "https://community.revelo.com/gerenciamento-de-rotas-com-o-react/",
+    "resume": ""
+  },
+  {
+    "titulo": "Framer Motion para transições e elementos React",
+    "image": "Framer Motion para transições e elementos React.png",
+    "link": "https://community.revelo.com/framer-motion-para-transicoes-e-elementos-react/",
+    "resume": ""
+  },
+  {
+    "titulo": "Três hooks indispensáveis para componentizações",
+    "image": "Três hooks indispensáveis para componentizações.png",
+    "link": "https://community.revelo.com/react-tres-hooks-indispensaveis-para-componentizacoes/",
+    "resume": ""
+  },         
+  {
+    "titulo": "Crie um carrossel no React com Swiper",
+    "image": "Crie um carrossel no React com Swiper.png",
+    "link": "https://community.revelo.com/crie-um-carrossel-no-react-com-swiper/",
+    "resume": ""
+  },
+  {
+    "titulo": "Conectando node.js e Mysql",
+    "image": "Conectando node.js e Mysql.png",
+    "link": "https://community.revelo.com/como-conectar-o-node-js-com-o-mysql/",
+    "resume": ""
+  },
+  {
+    "titulo": "Publicando projetos no github pages.png",
+    "image": "Publicando projetos no github pages.png",
+    "link": "https://community.revelo.com/tres-passos-para-publicar-projetos-react-no-github/",
+    "resume": ""
+  },
+  {
+    "titulo": "Usando redux no react",
+    "image": "Usando redux no react.png",
+    "link": "https://community.revelo.com/como-utilizar-redux-no-react/",
+    "resume": ""
+  }
+]
+            

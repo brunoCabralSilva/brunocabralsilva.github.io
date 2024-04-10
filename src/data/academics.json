@@ -1,0 +1,38 @@
+[
+    {
+        "academia": "Escola Técnica Redentorista",
+        "curso": "Técnico em Eletrônica.",
+        "descricao": [
+            "A minha primeira experiência acadêmica após o ensino regular foi o redentorista. Ali, tive contato pela primeira vez com uma linguagem de programação (Linguagem C e C++), direcionado para microcontroladores.",
+            " Aprendi muito sobre a eletricidade, sendo o maior dos conhecimentos adquiridos voltados para a Elétrica predial."
+        ],
+        "dataInicio": "Jan. de 2011",
+        "dataConclusão": "Jul. de 2012",
+        "duracao": "Um ano e meio.",
+        "imagem": "eter.jpg"
+    },
+    {
+        "academia": "Faculdade Maurício de Nassau",
+        "curso": "Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+        "descricao": [
+            "O primeiro grande passo rumo ao campo da programação e desenvolvimento começou aqui.",
+            "O curso abrangeu diversos temas importantes, dentre eles o conceito e aplicação de Bancos de Dados relacionais, Redes, Projeto, Interface e experiência com o usuário, Programação Web, Metodologias Ágeis, Controle de Versionamento de código com Github, etc."
+        ],
+        "dataInicio": "Jan. de 2013",
+        "dataConclusão": "Dez. de 2015",
+        "duracao": "Dois anos e meio.",
+        "imagem": "nassau.jpg"
+    },
+    {
+        "academia": "Trybe",
+        "curso": "Desenvolvimento Web.",
+        "descricao": [
+            "E finalmente chegamos aos dias atuais. A Trybe foi um achado na minha vida, pois me mostrou a minha maior paixão, dentre todas as que eu possuo: O Desenvolvimento Web.",
+            "Já aprendi tanta coisa que eu nem faço ideia do quão grande serei quando concluir este curso: HTML, CSS, Javascript, React, Node.js, Typescript, Docker, Mysql, MongoDB... e ainda vem muito mais por aí! "
+        ],
+        "dataInicio": "Fev. de 2022",
+        "dataConclusão": "Mar. de 2023",
+        "duracao": "Um ano e um mês.",
+        "imagem": "trybe.png"
+    }
+]

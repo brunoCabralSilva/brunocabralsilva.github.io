@@ -1,0 +1,63 @@
+[
+    {
+        "empresa": "Faculdade Maurício de Nassau",
+        "cargo": "Técnico em Informática.",
+        "descricao": [
+            "No meu primeiro emprego, fui designado a prestar auxílio no que tange ao ramo de manutenção em computadores e redes em todos os setores da Faculdade.",
+            " Estes setores eram constituídos por todas as salas de aula (mais de cinquenta, cada uma com um computador e Tvs ou dataShows), Coordenação, Diretoria, Recursos Humanos, Financeiro, Biblioteca, Recepção, Secretaria e três Labotarótios de informática (cada um com quarenta computadores)."
+        ],
+        "dataInicio": "Jul. de 2012",
+        "dataConclusão": "Mar. de 2014",
+        "duracao": "Um ano e oito meses.",
+        "imagem": "nassau.jpg"
+    },
+    {
+        "empresa": "Orbitall S.A.",
+        "cargo": "Operador de Cobranças (Caixa Econômica Federal), Superintendência de Processamento e Direcionamentos Jurídicos (Caixa Econômica Federal), Operador de cobranças (Escritório Externo da FortBrasil), Operador SAC (BonSucesso) e Operador de Vendas (Olé Consignado).",
+        "descricao": [
+            "Desempenhei na empresa diversas funções como pode ser notado, onde em todas elas pude trabalhar meu relacionamento e abordagem direta com pessoas.",
+            " Aprendi técnicas de argumentação e convencimento em todas elas, além de desenvolver um linguajar técnico para redigir laudos em defesa da empresa nos processos (Setor de Processamento e Direcionamento Jurídico), mantendo contato direto com os técnicos do Procon."
+        ],
+        "dataInicio": "Fev. de 2014",
+        "dataConclusão": "Set. de 2016",
+        "duracao": "Dois anos e sete meses.",
+        "imagem": "orbitall.jpg"
+    },
+    {
+        "empresa": "Aec",
+        "cargo": "Monitor de Qualidade (99) e Monitor de Qualidade (Shopee).",
+        "descricao": [
+            "Atuando no processo de melhoria contínua, o contato direto com os operadores é constante, para que por meio de brain storms possa entender suas limitações e sugestões que possam ajudar a melhorar na relação com o cliente que entra em contato.",
+            "Somado com análises envolvento a experiência final do cliente pós-atendimento (CSAT), gero sugestões de melhoria para a empresa contratante, que avalia se as dicas são rentáveis e atualiza seu processo de atendimento conforme o apontado."
+        ],
+        "dataInicio": "Out. de 2019",
+        "dataConclusão": "Mar. de 2023",
+        "duracao": "Três anos e seis meses",
+        "imagem": "aec.jpg"
+    },
+    {
+        "empresa": "Revelo Community Network",
+        "cargo": "Redator",
+        "link": "https://community.revelo.com/",
+        "descricao": [
+            "O cargo consiste em criar artigos técnicos sobre temas relacionados às tecnologias React, Tailwind CSS e Node.js. Estes artigos são publicados em espanhol e em português pela Revelo, em sites que a empresa possui para ambos os públicos."
+        ],
+        "dataInicio": "Ago. de 2022",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Cargo atual",
+        "imagem": "revelo.png"
+    },
+    {
+        "empresa": "Aoop Cloud Solutions",
+        "cargo": "Desenvolvedor",
+        "descricao": [
+            "O Cargo consiste em desenvolver e implementar de soluções voltadas para a gestão de serviços de TI através da plataforma ServiceNow, com foco específico na área de Service Portfolio Management (SPM)",
+            "Trabalho diariamente utilizando JavaScript para criar e personalizar instâncias, configurar fluxos de trabalho e integrar sistemas, visando otimizar processos e melhorar a eficiência operacional.",
+            "Além disso, diaramente existe a colaboração com equipes multidisciplinares para compreender as demandas dos clientes e propor soluções inovadoras que atendam às necessidades específicas de gerenciamento de serviços."
+        ],
+        "dataInicio": "Nov. de 2024",
+        "dataConclusão": "os dias atuais",
+        "duracao": "Cargo atual",
+        "imagem": "aoop.png"
+    }
+]
