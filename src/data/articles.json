@@ -1,5 +1,59 @@
 [ 
   {
+    "titulo": "Primeiros passos com o Angular",
+    "image": "Primeiros passos com o Angular.png",
+    "link": "https://community.revelo.com.br/primeiros-passos-com-o-angular/",
+    "resume": ""
+  },
+  {
+    "titulo": "Tipografia com Tailwind - Parte II",
+    "image": "Tipografia com Tailwind - Parte II.png",
+    "link": "https://community.revelo.com.br/tipografia-com-tailwind-parte-ii/",
+    "resume": ""
+  },
+  {
+    "titulo": "Tipografia com Tailwind - Parte I",
+    "image": "Tipografia com Tailwind - Parte I.png",
+    "link": "https://community.revelo.com.br/tipografia-com-tailwind-parte-i/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando Bordas e Contornos com Tailwind",
+    "image": "Utilizando Bordas e Contornos com Tailwind.png",
+    "link": "https://community.revelo.com.br/utilizando-bordas-e-contornos-com-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando transformações no Tailwind",
+    "image": "Utilizando transformações no Tailwind.png",
+    "link": "https://community.revelo.com.br/utilizando-transformacoes-no-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Utilizando Transições e Animações com o Tailwind",
+    "image": "Utilizando Transições e Animações com o Tailwind.png",
+    "link": "https://community.revelo.com.br/utilizando-transicoes-e-animacoes-com-o-tailwind/",
+    "resume": ""
+  },
+  {
+    "titulo": "Explorando Backgrounds com Tailwind - Parte 2",
+    "image": "Explorando Backgrounds com Tailwind - Parte 2.png",
+    "link": "https://community.revelo.com.br/explorando-backgrounds-com-tailwind-parte-2/",
+    "resume": ""
+  },
+  {
+    "titulo": "Explorando Backgrounds com Tailwind - Parte 1",
+    "image": "Explorando Backgrounds com Tailwind - Parte 1.png",
+    "link": "https://community.revelo.com.br/explorando-backgrounds-com-tailwind-parte-1/",
+    "resume": ""
+  },
+  {
+    "titulo": "Espaçamentos e Tamanhos com Tailwind",
+    "image": "Espaçamentos e Tamanhos com Tailwind.png",
+    "link": "https://community.revelo.com.br/espacamentos-e-tamanhos-com-tailwind/",
+    "resume": ""
+  },
+  {
     "titulo": "Como utilizar o Grid Layout com Tailwind CSS",
     "image": "Como utilizar o Grid Layout com Tailwind CSS.png",
     "link": "https://community.revelo.com.br/como-utilizar-o-grid-layout-com-tailwind-css/",
@@ -73,7 +127,7 @@
   },
   {
     "titulo": "Github Copilot: Vale a pena?",
-    "image": "Github Copilot: Vale a pena.png",
+    "image": "Github Copilot Vale a pena.png",
     "link": "https://community.revelo.com.br/github-copilot-vale-a-pena/",
     "resume": ""
   },
